@@ -12,4 +12,17 @@ namespace hello {
         std::cout << "결과: " << result << std::endl;
         std::cout << "================================" << std::endl;
     }
+    
+    void solveNPrint(int N) {
+        std::cout << "=== 2741번 N 찍기 문제 해결 ===" << std::endl;
+        std::cout << "입력: " << N << std::endl;
+        std::cout << "출력:" << std::endl;
+        
+        // 1부터 N까지 한 줄에 하나씩 출력
+        for (int i = 1; i <= N; i++) {
+            std::cout << i << std::endl;
+        }
+        
+        std::cout << "================================" << std::endl;
+    }
 }

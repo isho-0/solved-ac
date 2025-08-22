@@ -19,6 +19,14 @@ namespace hello {
      * @param result 결과 문자열
      */
     void printResult(int problemNumber, const std::string& result);
+    
+    /**
+     * @brief 2741번 N 찍기 문제 해결 함수
+     * 
+     * 자연수 N이 주어졌을 때, 1부터 N까지 한 줄에 하나씩 출력
+     * @param N 입력받은 자연수 (1 ≤ N ≤ 100,000)
+     */
+    void solveNPrint(int N);
 }
 
 #endif // HELLO_HPP
