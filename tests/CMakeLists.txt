@@ -3,8 +3,8 @@ find_package(GTest REQUIRED)
 
 # 테스트 소스 파일들
 set(TEST_SOURCES
-    solved_test.cpp
-    main.cpp
+    solved_test.cc
+    main.cc
 )
 
 # 테스트 실행 파일 생성

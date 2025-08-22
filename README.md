@@ -34,13 +34,13 @@ solved-ac/
 ├── CMakeLists.txt          # 프로젝트 루트 CMake 설정
 ├── src/                    # 소스 코드
 │   ├── CMakeLists.txt      # 소스 코드 빌드 설정
-│   ├── main.cpp           # 메인 실행 파일
-│   ├── solved.hpp          # 헤더 파일
-│   └── solved.cpp          # 구현 파일
+│   ├── main.cc            # 메인 실행 파일
+│   ├── solved.h            # 헤더 파일
+│   └── solved.cc           # 구현 파일
 ├── tests/                  # 테스트 코드
 │   ├── CMakeLists.txt      # 테스트 빌드 설정
-│   ├── main.cpp           # 테스트 메인 파일
-│   └── solved_test.cpp     # 단위 테스트
+│   ├── main.cc            # 테스트 메인 파일
+│   └── solved_test.cc      # 단위 테스트
 ├── build/                  # 빌드 출력 디렉토리
 ├── .github/                # GitHub 관련 설정
 ├── .gitignore             # Git 무시 파일 목록
@@ -155,8 +155,8 @@ git commit -m "refactor: 알고리즘 최적화 적용"
 
 ## 📝 사용법
 
-1. **새로운 문제 추가**: `src/solved.hpp`와 `src/solved.cpp`를 수정하여 새로운 문제 해결 함수를 추가
-2. **문제 해결 로직**: `src/main.cpp`에서 문제 번호 입력 처리 로직 구현
+1. **새로운 문제 추가**: `src/solved.h`와 `src/solved.cc`를 수정하여 새로운 문제 해결 함수를 추가
+2. **문제 해결 로직**: `src/main.cc`에서 문제 번호 입력 처리 로직 구현
 3. **테스트 케이스**: `tests/` 디렉토리에 새로운 테스트 케이스 추가
 4. **문서화**: 각 문제별 풀이 방법과 알고리즘 설명 주석 추가
 
