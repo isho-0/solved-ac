@@ -1,0 +1,42 @@
+# 빌드 디렉토리
+build/
+cmake-build-*/
+
+# CMake 생성 파일들
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 실행 파일들
+*.exe
+*.out
+*.app
+
+# 오브젝트 파일들
+*.o
+*.obj
+
+# 라이브러리 파일들
+*.a
+*.lib
+*.so
+*.dylib
+
+# IDE 파일들
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 생성 파일들
+.DS_Store
+Thumbs.db
+
+# 로그 파일들
+*.log
+
+# 임시 파일들
+*.tmp
+*.temp

@@ -1,0 +1,19 @@
+{
+  "name": "solved-ac",
+  "version": "1.0.0",
+  "description": "solved.ac 코딩 문제 해결 및 기록 프로젝트",
+  "homepage": "https://github.com/yourusername/solved-ac",
+  "dependencies": [
+    {
+      "name": "gtest",
+      "version>=": "1.14.0"
+    }
+  ],
+  "builtin-baseline": "2024-01-01",
+  "overrides": [
+    {
+      "name": "gtest",
+      "version": "1.14.0"
+    }
+  ]
+}
