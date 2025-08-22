@@ -1,16 +1,16 @@
-#ifndef HELLO_HPP
-#define HELLO_HPP
+#ifndef SOLVED_HPP
+#define SOLVED_HPP
 
 #include <string>
 
-namespace hello {
+namespace solved {
     /**
-     * @brief 간단한 인사말을 출력하는 함수
+     * @brief solved.ac 문제 해결 시작 메시지를 출력하는 함수
      * 
      * 이 함수는 solved.ac 문제 해결을 위한 기본 템플릿 함수입니다.
      * 각 문제별로 이 함수를 수정하여 사용할 수 있습니다.
      */
-    void sayHello();
+    void showWelcomeMessage();
     
     /**
      * @brief 문제 해결 결과를 출력하는 함수
@@ -29,4 +29,4 @@ namespace hello {
     void solveNPrint(int N);
 }
 
-#endif // HELLO_HPP
+#endif // SOLVED_HPP

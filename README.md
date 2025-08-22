@@ -35,12 +35,12 @@ solved-ac/
 ├── src/                    # 소스 코드
 │   ├── CMakeLists.txt      # 소스 코드 빌드 설정
 │   ├── main.cpp           # 메인 실행 파일
-│   ├── hello.hpp          # 헤더 파일
-│   └── hello.cpp          # 구현 파일
+│   ├── solved.hpp          # 헤더 파일
+│   └── solved.cpp          # 구현 파일
 ├── tests/                  # 테스트 코드
 │   ├── CMakeLists.txt      # 테스트 빌드 설정
 │   ├── main.cpp           # 테스트 메인 파일
-│   └── hello_test.cpp     # 단위 테스트
+│   └── solved_test.cpp     # 단위 테스트
 ├── build/                  # 빌드 출력 디렉토리
 ├── .github/                # GitHub 관련 설정
 ├── .gitignore             # Git 무시 파일 목록
@@ -156,20 +156,10 @@ git commit -m "refactor: 알고리즘 최적화 적용"
 
 ## 📝 사용법
 
-1. **새로운 문제 추가**: `src/hello.hpp`와 `src/hello.cpp`를 수정하여 새로운 문제 해결 함수를 추가
+1. **새로운 문제 추가**: `src/solved.hpp`와 `src/solved.cpp`를 수정하여 새로운 문제 해결 함수를 추가
 2. **문제 해결 로직**: `src/main.cpp`에서 문제 번호 입력 처리 로직 구현
 3. **테스트 케이스**: `tests/` 디렉토리에 새로운 테스트 케이스 추가
 4. **문서화**: 각 문제별 풀이 방법과 알고리즘 설명 주석 추가
-
----
-
-## 🤝 기여하기
-
-1. 이 저장소를 포크합니다
-2. 새로운 기능 브랜치를 생성합니다 (`git checkout -b feature/amazing-feature`)
-3. 변경사항을 커밋합니다 (`git commit -m 'Add some amazing feature'`)
-4. 브랜치에 푸시합니다 (`git push origin feature/amazing-feature`)
-5. Pull Request를 생성합니다
 
 ---
 

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "hello.hpp"
+#include "solved.hpp"
 
 int main() {
     std::cout << "=== Solved.ac 문제 해결 프로젝트 ===" << std::endl;
@@ -19,10 +19,10 @@ int main() {
                 std::cout << "N을 입력하세요: ";
                 int N;
                 std::cin >> N;
-                hello::solveNPrint(N);
+                solved::solveNPrint(N);
                 break;
             default:
-                hello::sayHello();
+                solved::showWelcomeMessage();
                 break;
         }
     } else {

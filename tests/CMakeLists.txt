@@ -3,7 +3,7 @@ find_package(GTest REQUIRED)
 
 # 테스트 소스 파일들
 set(TEST_SOURCES
-    hello_test.cpp
+    solved_test.cpp
     main.cpp
 )
 

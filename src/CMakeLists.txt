@@ -1,12 +1,12 @@
 # 소스 파일들
 set(SOURCES
     main.cpp
-    hello.cpp
+    solved.cpp
 )
 
 # 헤더 파일들
 set(HEADERS
-    hello.hpp
+    solved.hpp
 )
 
 # 실행 파일 생성
