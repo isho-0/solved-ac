@@ -15,6 +15,12 @@ int main() {
         
         // 문제별 해결 함수 호출
         switch (problemNum) {
+            case 1001:
+                std::cout << "두 정수 A와 B를 입력하세요 (예: 3 2): ";
+                int A, B;
+                std::cin >> A >> B;
+                solved::solveAB(A, B);
+                break;
             case 2741:
                 std::cout << "N을 입력하세요: ";
                 int N;

@@ -25,4 +25,15 @@ namespace solved {
         
         std::cout << "================================" << std::endl;
     }
+    
+    void solveAB(int A, int B) {
+        std::cout << "=== 1001번 A-B 문제 해결 ===" << std::endl;
+        std::cout << "입력: A=" << A << ", B=" << B << std::endl;
+        std::cout << "출력: " << std::endl;
+        
+        // A-B 계산 및 출력
+        std::cout << A - B << std::endl;
+        
+        std::cout << "================================" << std::endl;
+    }
 }

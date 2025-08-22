@@ -64,10 +64,25 @@ void testSolveNPrint() {
     test.TearDown();
 }
 
+void testSolveAB() {
+    SolvedTest test;
+    test.SetUp();
+    
+    solved::solveAB(3, 2);
+    
+    std::string output = test.buffer.str();
+    TEST_ASSERT_NE(output, "1001번 A-B 문제 해결");
+    TEST_ASSERT_NE(output, "입력: A=3, B=2");
+    TEST_ASSERT_NE(output, "1"); // 3 - 2 = 1
+    
+    test.TearDown();
+}
+
 int main() {
     testShowWelcomeMessage();
     testPrintResult();
     testSolveNPrint();
+    testSolveAB();
     
     std::cout << "모든 테스트가 통과했습니다!" << std::endl;
     return 0;

@@ -27,6 +27,15 @@ namespace solved {
      * @param N 입력받은 자연수 (1 ≤ N ≤ 100,000)
      */
     void solveNPrint(int N);
+    
+    /**
+     * @brief 1001번 A-B 문제 해결 함수
+     * 
+     * 두 정수 A와 B를 입력받아 A-B를 출력합니다.
+     * @param A 첫 번째 정수 (0 < A < 10)
+     * @param B 두 번째 정수 (0 < B < 10)
+     */
+    void solveAB(int A, int B);
 }
 
 #endif // SOLVED_HPP
