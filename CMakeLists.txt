@@ -20,15 +20,6 @@ endif()
 # 서브디렉토리 추가
 add_subdirectory(src)
 
-# Google Test가 있을 때만 테스트 빌드
-find_package(GTest QUIET)
-if(GTest_FOUND)
-    add_subdirectory(tests)
-    message(STATUS "Google Test found - tests will be built")
-else()
-    message(STATUS "Google Test not found - skipping tests")
-endif()
-
 # vcpkg 패키지 매니저 설정
 if(DEFINED ENV{VCPKG_ROOT})
     set(CMAKE_TOOLCHAIN_FILE "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"

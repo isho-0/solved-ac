@@ -21,7 +21,6 @@
 
 - **언어**: C++17
 - **빌드 시스템**: CMake 3.16+
-- **테스트 프레임워크**: Google Test
 - **버전 관리**: Git & GitHub
 - **운영체제**: Windows / macOS / Linux (크로스 플랫폼)
 
@@ -37,10 +36,6 @@ solved-ac/
 │   ├── main.cc            # 메인 실행 파일
 │   ├── solved.h            # 헤더 파일
 │   └── solved.cc           # 구현 파일
-├── tests/                  # 테스트 코드
-│   ├── CMakeLists.txt      # 테스트 빌드 설정
-│   ├── main.cc            # 테스트 메인 파일
-│   └── solved_test.cc      # 단위 테스트
 ├── build/                  # 빌드 출력 디렉토리
 ├── .github/                # GitHub 관련 설정
 ├── .gitignore             # Git 무시 파일 목록
@@ -58,7 +53,7 @@ solved-ac/
 - solved.ac 문제들을 체계적으로 해결하며 알고리즘 실력 향상
 - 다양한 문제 풀이 방법과 최적화 기법 탐색
 - C++17의 모던한 기능들을 활용한 효율적인 코드 작성
-- CMake와 Google Test를 활용한 실전 개발 환경 경험
+- CMake를 활용한 실전 개발 환경 경험
 - Git으로 버전 관리하며 성장 로그 남기기
 
 ---
@@ -99,21 +94,11 @@ cmake --build .
 ```bash
 # 메인 프로그램 실행
 ./src/solved-ac
-
-# 테스트 실행
-./tests/unit_tests
 ```
 
 ---
 
-## 🧪 테스트
 
-프로젝트는 Google Test를 사용하여 단위 테스트를 포함하고 있습니다.
-
-```bash
-cd build
-make test
-```
 
 ---
 
@@ -125,7 +110,7 @@ make test
 | `docs` | 문서 수정 또는 주석 추가 |
 | `refactor` | 기존 코드 개선 |
 | `fix` | 버그 수정 또는 로직 수정 |
-| `test` | 테스트 케이스 추가 또는 수정 |
+
 | `chore` | 설정 파일, 빌드 설정 등 변경 |
 
 **예시**:
@@ -157,8 +142,7 @@ git commit -m "refactor: 알고리즘 최적화 적용"
 
 1. **새로운 문제 추가**: `src/solved.h`와 `src/solved.cc`를 수정하여 새로운 문제 해결 함수를 추가
 2. **문제 해결 로직**: `src/main.cc`에서 문제 번호 입력 처리 로직 구현
-3. **테스트 케이스**: `tests/` 디렉토리에 새로운 테스트 케이스 추가
-4. **문서화**: 각 문제별 풀이 방법과 알고리즘 설명 주석 추가
+3. **문서화**: 각 문제별 풀이 방법과 알고리즘 설명 주석 추가
 
 ---
 
