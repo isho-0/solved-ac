@@ -33,6 +33,11 @@ void a_add_b(int a, int b);
 // @param b 두 번째 정수 (0 < b < 10)
 void a_sub_b(int a, int b);
 
+// 8393번 1부터 n까지 합 문제 해결 함수
+// 정수 n을 입력받아 1부터 n까지의 합을 출력합니다.
+// @param n 정수 (1 <= n <= 10000)
+void sum_from_one_to_n(int n);
+
 }  // namespace solved_ac
 
 #endif  // SOLVED_AC_SOLVED_H_

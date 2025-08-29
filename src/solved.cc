@@ -49,5 +49,23 @@ void a_sub_b(int a, int b) {
   std::cout << "================================" << std::endl;
 }
 
+void sum_from_one_to_n(int n) {
+  int sum = 0;
+
+  for (int i = 1; i <= n; i++) {
+    sum += i;
+  }
+
+  std::cout << "=== 8393번 합 문제 해결 ===" << std::endl;
+  std::cout << "입력: n=" << n << std::endl;
+  std::cout << "출력: ";
+
+  // 1부터 n 까지의 합 출력
+  std::cout << sum << std::endl;
+
+  std::cout << "================================" << std::endl;
+}
+
+
 
 }  // namespace solved_ac

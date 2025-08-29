@@ -40,6 +40,14 @@ int main() {
         break;
       }
 
+      case 8393: {
+        std::cout << "N을 입력하세요: ";
+        int n;
+        std::cin >> n;
+        solved_ac::sum_from_one_to_n(n);
+        break;
+      }
+
       default:
         solved_ac::show_welcome_message();
         break;
