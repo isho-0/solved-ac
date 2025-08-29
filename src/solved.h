@@ -25,13 +25,13 @@ void solve_n_print(int n);
 // 두 정수 A와 B를 입력받아 A+B를 출력합니다.
 // @param a 첫 번째 정수 (0 < a < 10)
 // @param b 첫 번째 정수 (0 < b < 10)
-void a_plus_b(int a, int b);
+void a_add_b(int a, int b);
 
 // 1001번 A-B 문제 해결 함수
 // 두 정수 A와 B를 입력받아 A-B를 출력합니다.
 // @param a 첫 번째 정수 (0 < a < 10)
 // @param b 두 번째 정수 (0 < b < 10)
-void solve_ab(int a, int b);
+void a_sub_b(int a, int b);
 
 }  // namespace solved_ac
 

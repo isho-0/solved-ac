@@ -20,16 +20,18 @@ int main() {
         std::cout << "두 정수 A와 B를 입력하세요 (예: 1, 2)";
         int a, b;
         std::cin >> a >> b;
-        solved_ac::a_plus_b(a, b);
+        solved_ac::a_add_b(a, b);
         break;
       }
+
       case 1001: {
         std::cout << "두 정수 A와 B를 입력하세요 (예: 3 2): ";
         int a, b;
         std::cin >> a >> b;
-        solved_ac::solve_ab(a, b);
+        solved_ac::a_sub_b(a, b);
         break;
       }
+
       case 2741: {
         std::cout << "N을 입력하세요: ";
         int n;
@@ -37,6 +39,7 @@ int main() {
         solved_ac::solve_n_print(n);
         break;
       }
+
       default:
         solved_ac::show_welcome_message();
         break;

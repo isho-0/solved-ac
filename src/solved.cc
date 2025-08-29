@@ -28,7 +28,17 @@ void solve_n_print(int n) {
   std::cout << "================================" << std::endl;
 }
 
-void solve_ab(int a, int b) {
+void a_add_b(int a, int b) {
+  std::cout << "=== 1000번 A+B 문제 해결 ===" << std::endl;
+  std::cout << "입력: A=" << a << ", B=" << b << std::endl;
+  std::cout << "출력: ";
+
+  std::cout << a + b << std::endl;
+
+  std::cout << "================================" << std::endl;
+}
+
+void a_sub_b(int a, int b) {
   std::cout << "=== 1001번 A-B 문제 해결 ===" << std::endl;
   std::cout << "입력: A=" << a << ", B=" << b << std::endl;
   std::cout << "출력: ";
@@ -39,14 +49,5 @@ void solve_ab(int a, int b) {
   std::cout << "================================" << std::endl;
 }
 
-void a_plus_b(int a, int b) {
-  std::cout << "=== 1000번 A+B 문제 해결 ===" << std::endl;
-  std::cout << "입력: A=" << a << ", B=" << b << std::endl;
-  std::cout << "출력: ";
-
-  std::cout << a + b << std::endl;
-
-  std::cout << "================================" << std::endl;
-}
 
 }  // namespace solved_ac
