@@ -37,7 +37,15 @@ int main() {
         std::cout << "N을 입력하세요: ";
         int n;
         std::cin >> n;
-        solved_ac::solve_n_print(n);
+        solved_ac::n_printing(n);
+        break;
+      }
+
+      case 2742: {
+        std::cout << "N을 입력하세요: ";
+        int n;
+        std::cin >> n;
+        solved_ac::reverse_n_printing(n);
         break;
       }
 

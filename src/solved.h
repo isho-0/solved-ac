@@ -15,11 +15,6 @@ void show_welcome_message();
 // @param result 결과 문자열
 void print_result(int problem_number, const std::string& result);
 
-// 2741번 N 찍기 문제 해결 함수
-// 자연수 N이 주어졌을 때, 1부터 N까지 한 줄에 하나씩 출력
-// @param n 입력받은 자연수 (1 ≤ n ≤ 100,000)
-void solve_n_print(int n);
-
 // 1000번 A+B 문제 해결 함수
 // 두 정수 A와 B를 입력받아 A+B를 출력합니다.
 // @param a 첫 번째 정수 (0 < a < 10)
@@ -33,10 +28,14 @@ void a_add_b(int a, int b);
 void a_sub_b(int a, int b);
 
 // 2741번 N 찍기 문제 해결 함수
-// 자연수 N이 주어졌을 때, 1부터 N까지 한 줄에 하나씩 출력하는 프로그램을
-// 작성하시오.
+// 자연수 N이 주어졌을 때, 1부터 N까지 한 줄에 하나씩 출력하는 프로그램을 작성하시오.
 // @param n 정수 (n <= 100000)
 void n_printing(int n);
+
+// 2742번 기찍 N 문제 해결 함수
+// 자연수 N이 주어졌을 때, N부터 1까지 한 줄에 하나씩 출력하는 프로그램을 작성하시오.
+// @param n 정수 (n <= 100000)
+void reverse_n_printing(int n);
 
 // 8393번 1부터 n까지 합 문제 해결 함수
 // 정수 n을 입력받아 1부터 n까지의 합을 출력합니다.
