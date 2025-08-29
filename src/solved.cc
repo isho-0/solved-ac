@@ -18,7 +18,7 @@ void print_result(int problem_number, const std::string& result) {
 void solve_n_print(int n) {
   std::cout << "=== 2741번 N 찍기 문제 해결 ===" << std::endl;
   std::cout << "입력: " << n << std::endl;
-  std::cout << "출력:" << std::endl;
+  std::cout << "출력:";
 
   // 1부터 n까지 한 줄에 하나씩 출력
   for (int i = 1; i <= n; ++i) {
@@ -31,7 +31,7 @@ void solve_n_print(int n) {
 void solve_ab(int a, int b) {
   std::cout << "=== 1001번 A-B 문제 해결 ===" << std::endl;
   std::cout << "입력: A=" << a << ", B=" << b << std::endl;
-  std::cout << "출력: " << std::endl;
+  std::cout << "출력: ";
 
   // a-b 계산 및 출력
   std::cout << a - b << std::endl;
@@ -42,7 +42,7 @@ void solve_ab(int a, int b) {
 void a_plus_b(int a, int b) {
   std::cout << "=== 1000번 A+B 문제 해결 ===" << std::endl;
   std::cout << "입력: A=" << a << ", B=" << b << std::endl;
-  std::cout << "출력: " << std::endl;
+  std::cout << "출력: ";
 
   std::cout << a + b << std::endl;
 

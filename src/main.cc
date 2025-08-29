@@ -20,9 +20,9 @@ int main() {
         std::cout << "두 정수 A와 B를 입력하세요 (예: 1, 2)";
         int a, b;
         std::cin >> a >> b;
-
+        solved_ac::a_plus_b(a, b);
+        break;
       }
-
       case 1001: {
         std::cout << "두 정수 A와 B를 입력하세요 (예: 3 2): ";
         int a, b;
