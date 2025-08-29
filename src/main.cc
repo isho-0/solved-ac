@@ -12,7 +12,8 @@ int main() {
 
   if (!problem_number.empty()) {
     int problem_num = std::stoi(problem_number);
-    std::cout << "문제 " << problem_num << "을(를) 해결하겠습니다." << std::endl;
+    std::cout << "문제 " << problem_num << "을(를) 해결하겠습니다."
+              << std::endl;
 
     // 문제별 해결 함수 호출
     switch (problem_num) {
