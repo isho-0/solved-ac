@@ -20,6 +20,13 @@ void print_result(int problem_number, const std::string& result);
 // @param n 입력받은 자연수 (1 ≤ n ≤ 100,000)
 void solve_n_print(int n);
 
+
+// 1000번 A+B 문제 해결 함수
+// 두 정수 A와 B를 입력받아 A+B를 출력합니다.
+// @param a 첫 번째 정수 (0 < a < 10)
+// @param b 첫 번째 정수 (0 < b < 10)
+void a_plus_b(int a, int b);
+
 // 1001번 A-B 문제 해결 함수
 // 두 정수 A와 B를 입력받아 A-B를 출력합니다.
 // @param a 첫 번째 정수 (0 < a < 10)
