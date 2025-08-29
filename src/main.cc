@@ -14,13 +14,13 @@ int main() {
     int problem_num = std::stoi(problem_number);
     std::cout << "문제 " << problem_num << "을(를) 해결하겠습니다." << std::endl;
 
-    // 문제별 해결 함수 호출
     switch (problem_num) {
       case 1000: {
         int a, b;
 
         std::cout << "두 정수 A와 B를 입력하세요 (예: 1, 2) : ";
         std::cin >> a >> b;
+
         solved_ac::a_add_b(a, b);
 
         break;
@@ -31,7 +31,19 @@ int main() {
 
         std::cout << "두 정수 A와 B를 입력하세요 (예: 3 2) : ";
         std::cin >> a >> b;
+
         solved_ac::a_sub_b(a, b);
+
+        break;
+      }
+
+      case 2438: {
+        int n;
+
+        std::cout << "N을 입력하세요 : ";
+        std::cin >> n;
+
+        solved_ac::print_stars_1(n);
 
         break;
       }
@@ -52,6 +64,7 @@ int main() {
 
         std::cout << "N을 입력하세요 : ";
         std::cin >> n;
+
         solved_ac::n_printing(n);
 
         break;
@@ -62,6 +75,7 @@ int main() {
 
         std::cout << "N을 입력하세요 : ";
         std::cin >> n;
+
         solved_ac::reverse_n_printing(n);
 
         break;
@@ -72,6 +86,7 @@ int main() {
 
         std::cout << "N을 입력하세요 : ";
         std::cin >> n;
+
         solved_ac::sum_from_one_to_n(n);
 
         break;
