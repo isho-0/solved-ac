@@ -93,6 +93,17 @@ int main() {
         break;
       }
 
+      case 2443: {
+        int n;
+
+        std::cout << "N을 입력하세요 : ";
+        std::cin >> n;
+
+        solved_ac::print_stars_6(n);
+
+        break;
+      }
+
       case 2739: {
         int n;
 
