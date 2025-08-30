@@ -136,6 +136,12 @@ int main() {
         break;
       }
 
+      case 10952: {
+        solved_ac::a_add_b_5();
+
+        break;
+      }
+
       default:
         solved_ac::show_welcome_message();
         break;

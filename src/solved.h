@@ -73,6 +73,10 @@ void sum_from_one_to_n(int n);
 // @param A 정수 B 정수 (0 <= A, B <= 10)
 void a_add_b_3(int t);
 
+// 10952번 A+B-5 문제 해결 함수
+// 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+void a_add_b_5();
+
 
 }  // namespace solved_ac
 
