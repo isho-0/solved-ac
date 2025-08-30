@@ -125,6 +125,17 @@ int main() {
         break;
       }
 
+      case 10950: {
+        int t;
+
+        std::cout << "T를 입력하세요 : ";
+        std::cin >> t;
+
+        solved_ac::a_add_b_3(t);
+
+        break;
+      }
+
       default:
         solved_ac::show_welcome_message();
         break;

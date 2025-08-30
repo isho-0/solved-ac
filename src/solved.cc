@@ -140,17 +140,32 @@ void reverse_n_printing(int n) {
 }
 
 void sum_from_one_to_n(int n) {
+  std::cout << "=== 8393번 합 문제 해결 ===" << std::endl;
+  std::cout << "입력 : n = " << n << std::endl;
+  std::cout << "출력 : " << std::endl;
   int sum = 0;
 
   for (int i = 1; i <= n; i++) {
     sum += i;
   }
 
-  std::cout << "=== 8393번 합 문제 해결 ===" << std::endl;
-  std::cout << "입력: n=" << n << std::endl;
-  std::cout << "출력: " << std::endl;
-
   std::cout << sum << std::endl;
+
+  std::cout << "================================" << std::endl;
+}
+
+void a_add_b_3(int t) {
+  std::cout << "=== 10950번 A+B-3 문제 해결 ===" << std::endl;
+  std::cout << "입력 : T = " << t << std::endl;
+
+  int a, b;
+
+  for (int i = t; i > 0; i--) {
+    std::cin >> a >> b;
+    std::cout << "입력 : A = " << a << ", B = " << b << std::endl;
+    std::cout << "출력 : ";
+    std::cout << a + b << std::endl;
+  }
 
   std::cout << "================================" << std::endl;
 }

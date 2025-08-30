@@ -67,6 +67,13 @@ void reverse_n_printing(int n);
 // @param n 정수 (1 <= n <= 10000)
 void sum_from_one_to_n(int n);
 
+// 10950번 A+B-3 문제 해결 함수
+// 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+// @param T 정수
+// @param A 정수 B 정수 (0 <= A, B <= 10)
+void a_add_b_3(int t);
+
+
 }  // namespace solved_ac
 
 #endif  // SOLVED_AC_SOLVED_H_
