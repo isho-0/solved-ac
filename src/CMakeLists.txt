@@ -1,12 +1,40 @@
 # 소스 파일들
 set(SOURCES
     main.cc
-    solved.cc
+    problem_manager.cc
+    problems/problem_1000.cc
+    problems/problem_1001.cc
+    problems/problem_2438.cc
+    problems/problem_2439.cc
+    problems/problem_2440.cc
+    problems/problem_2441.cc
+    problems/problem_2442.cc
+    problems/problem_2443.cc
+    problems/problem_2739.cc
+    problems/problem_2741.cc
+    problems/problem_2742.cc
+    problems/problem_8393.cc
+    problems/problem_10950.cc
+    problems/problem_10952.cc
 )
 
 # 헤더 파일들
 set(HEADERS
-    solved.h
+    problem_manager.h
+    problems/problem_1000.h
+    problems/problem_1001.h
+    problems/problem_2438.h
+    problems/problem_2439.h
+    problems/problem_2440.h
+    problems/problem_2441.h
+    problems/problem_2442.h
+    problems/problem_2443.h
+    problems/problem_2739.h
+    problems/problem_2741.h
+    problems/problem_2742.h
+    problems/problem_8393.h
+    problems/problem_10950.h
+    problems/problem_10952.h
 )
 
 # 실행 파일 생성

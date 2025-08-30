@@ -33,9 +33,23 @@ solved-ac/
 ├── CMakeLists.txt          # 프로젝트 루트 CMake 설정
 ├── src/                    # 소스 코드
 │   ├── CMakeLists.txt      # 소스 코드 빌드 설정
-│   ├── main.cc            # 메인 실행 파일
-│   ├── solved.h            # 헤더 파일
-│   └── solved.cc           # 구현 파일
+│   ├── main.cc            # 메인 실행 파일 (간소화됨)
+│   ├── problem_manager.h/.cc # 문제 관리자 클래스
+│   └── problems/           # 문제별 개별 파일들
+│       ├── problem_1000.h/.cc
+│       ├── problem_1001.h/.cc
+│       ├── problem_2438.h/.cc
+│       ├── problem_2439.h/.cc
+│       ├── problem_2440.h/.cc
+│       ├── problem_2441.h/.cc
+│       ├── problem_2442.h/.cc
+│       ├── problem_2443.h/.cc
+│       ├── problem_2739.h/.cc
+│       ├── problem_2741.h/.cc
+│       ├── problem_2742.h/.cc
+│       ├── problem_8393.h/.cc
+│       ├── problem_10950.h/.cc
+│       └── problem_10952.h/.cc
 ├── build/                  # 빌드 출력 디렉토리
 ├── .github/                # GitHub 관련 설정
 ├── .gitignore             # Git 무시 파일 목록
@@ -55,6 +69,22 @@ solved-ac/
 - C++17의 모던한 기능들을 활용한 효율적인 코드 작성
 - CMake를 활용한 실전 개발 환경 경험
 - Git으로 버전 관리하며 성장 로그 남기기
+
+## 🔧 리팩토링 완료
+
+프로젝트가 **모듈화된 구조**로 리팩토링되었습니다:
+
+### ✅ 개선 사항
+- **main.cc 간소화**: 178줄 → 7줄로 대폭 단축
+- **문제별 파일 분리**: 각 문제가 독립적인 `.h/.cc` 파일로 분리
+- **ProblemManager 도입**: 문제들을 중앙에서 관리하는 시스템
+- **확장성 향상**: 새 문제 추가가 매우 간단해짐
+- **유지보수성 개선**: 각 문제가 독립적이라 수정이 용이함
+
+### 🏗️ 새로운 아키텍처
+- **단일 책임 원칙**: 각 파일이 하나의 문제만 담당
+- **개방-폐쇄 원칙**: 새 문제 추가 시 기존 코드 수정 불필요
+- **의존성 역전**: ProblemManager가 문제들을 추상화하여 관리
 
 ---
 
@@ -98,51 +128,59 @@ cmake --build .
 
 ---
 
-
-
----
-
 ## 🌊 Commit Convention (커밋 규칙)
 
 | 유형 | 설명 |
 |------|------|
 | `feat` | 새로운 문제 풀이 추가 |
 | `docs` | 문서 수정 또는 주석 추가 |
-| `refactor` | 기존 코드 개선 |
+| `refactor` | 기존 코드 개선 또는 리팩토링 |
 | `fix` | 버그 수정 또는 로직 수정 |
-
 | `chore` | 설정 파일, 빌드 설정 등 변경 |
 
 **예시**:
 
 ```bash
 git commit -m "feat: solved.ac 1000번 문제 풀이 완료"
-git commit -m "docs: 2557번 문제 풀이 방법 주석 추가"
-git commit -m "refactor: 알고리즘 최적화 적용"
+git commit -m "docs: README.md 프로젝트 구조 업데이트"
+git commit -m "refactor: 모듈화된 구조로 리팩토링 완료"
+git commit -m "fix: 2438번 문제 출력 형식 수정"
 ```
-
----
-
-## 📖 문제 해결 현황
-
-| 문제 번호 | 제목 | 난이도 | 상태 | 풀이 방법 |
-|-----------|------|--------|------|-----------|
-| 1001 | A-B | 🟢 Bronze V | ✅ 완료 | 기본 입출력 |
-| 2741 | N 찍기 | 🟢 Bronze V | ✅ 완료 | 반복문, 기본 입출력 |
-| ... | ... | ... | ... | ... |
-
-**상태 표시**:
-- ✅ 완료
-- 🔄 진행중
-- ⏳ 계획중
 
 ---
 
 ## 📝 사용법
 
-1. **새로운 문제 추가**: `src/solved.h`와 `src/solved.cc`를 수정하여 새로운 문제 해결 함수를 추가
-2. **문제 해결 로직**: `src/main.cc`에서 문제 번호 입력 처리 로직 구현
-3. **문서화**: 각 문제별 풀이 방법과 알고리즘 설명 주석 추가
+### 새로운 문제 추가하기
+
+1. **문제 파일 생성**: `src/problems/` 디렉토리에 `problem_XXXX.h`와 `problem_XXXX.cc` 파일 생성
+2. **함수 구현**: `solve_problem_XXXX()` 함수를 구현
+3. **ProblemManager에 등록**: `src/problem_manager.cc`에서 문제 번호와 함수를 등록
+
+**예시**:
+```cpp
+// src/problems/problem_2557.h
+#ifndef PROBLEM_2557_H
+#define PROBLEM_2557_H
+void solve_problem_2557();
+#endif
+
+// src/problems/problem_2557.cc
+#include "problem_2557.h"
+#include <iostream>
+
+void solve_problem_2557() {
+    std::cout << "=== 2557번 Hello World 문제 해결 ===" << std::endl;
+    std::cout << "Hello World!" << std::endl;
+    std::cout << "================================" << std::endl;
+}
+```
+
+### 프로그램 실행
+
+1. **빌드**: `mkdir build && cd build && cmake .. && make`
+2. **실행**: `./src/solved-ac`
+3. **문제 번호 입력**: 원하는 문제 번호를 입력하면 해당 문제가 실행됩니다
 
 ---
 
