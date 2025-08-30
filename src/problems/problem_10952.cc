@@ -15,7 +15,7 @@ void solve_problem_10952() {
         }
         
         std::cout << "출력 : ";
-        std::cout << a + b << std::endl;
+        std::cout << a + b << "\n";
     }
     
     std::cout << "================================" << std::endl;

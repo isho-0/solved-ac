@@ -8,11 +8,11 @@ void solve_problem_2741() {
     std::cout << "N을 입력하세요 : ";
     std::cin >> n;
     
-    std::cout << "입력 : n = " << n << std::endl;
-    std::cout << "출력 : " << std::endl;
+    std::cout << "입력 : n = " << n << "\n";
+    std::cout << "출력 : " << "\n";
     
     for (int i = 1; i <= n; i++) {
-        std::cout << i << std::endl;
+        std::cout << i << "\n";
     }
     
     std::cout << "================================" << std::endl;
