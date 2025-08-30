@@ -109,7 +109,7 @@ void n_printing(int n) {
 }
 
 void reverse_n_printing(int n) {
-  std::cout << "=== 2742번 N 찍기 문제 해결 ===" << std::endl;
+  std::cout << "=== 2742번 기찍 N 문제 해결 ===" << std::endl;
   std::cout << "입력 : n = " << n << std::endl;
   std::cout << "출력 : " << std::endl;
 
@@ -127,7 +127,7 @@ void sum_from_one_to_n(int n) {
     sum += i;
   }
 
-  std::cout << "=== 8393번 합 문제 해결 ===" << std::endl;
+  std::cout << "=== 8393번 1부터 n까지 합 문제 해결 ===" << std::endl;
   std::cout << "입력: n=" << n << std::endl;
   std::cout << "출력: " << std::endl;
 
