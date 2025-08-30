@@ -42,7 +42,7 @@ void print_stars_2(int n);
 // @param n 정수 (1 <= n <= 100)
 void print_stars_3(int n);
 
-// 2441번 별 찍기-3 문제 해결 함수
+// 2441번 별 찍기-4 문제 해결 함수
 // 첫째 줄에는 별 N개, 둘째 줄에는 별 N-1개, ..., N번째 줄에는 별 1개를 찍는 문제
 // @param n 정수 (1 <= n <= 100)
 void print_stars_4(int n);
