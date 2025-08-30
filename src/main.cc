@@ -59,6 +59,17 @@ int main() {
         break;
       }
 
+      case 2440: {
+        int n;
+
+        std::cout << "N을 입력하세요 : ";
+        std::cin >> n;
+
+        solved_ac::print_stars_3(n);
+
+        break;
+      }
+
       case 2739: {
         int n;
 
