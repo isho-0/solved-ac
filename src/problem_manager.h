@@ -12,7 +12,7 @@ private:
 public:
     ProblemManager();
     void run();
-    void solveProblem(int number);
+    void solve_problem(int number);
 };
 
 #endif

@@ -45,13 +45,13 @@ void ProblemManager::run() {
     
     if (!problem_number.empty()) {
         int problem_num = std::stoi(problem_number);
-        solveProblem(problem_num);
+        solve_problem(problem_num);
     } else {
         std::cout << "문제 번호가 입력되지 않았습니다." << std::endl;
     }
 }
 
-void ProblemManager::solveProblem(int number) {
+void ProblemManager::solve_problem(int number) {
     auto it = problems_.find(number);
     if (it != problems_.end()) {
         std::cout << "문제 " << number << "을(를) 해결하겠습니다." << std::endl;
