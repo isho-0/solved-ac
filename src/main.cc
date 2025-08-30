@@ -12,7 +12,8 @@ int main() {
 
   if (!problem_number.empty()) {
     int problem_num = std::stoi(problem_number);
-    std::cout << "문제 " << problem_num << "을(를) 해결하겠습니다." << std::endl;
+    std::cout << "문제 " << problem_num << "을(를) 해결하겠습니다."
+              << std::endl;
 
     switch (problem_num) {
       case 1000: {
@@ -77,6 +78,17 @@ int main() {
         std::cin >> n;
 
         solved_ac::print_stars_4(n);
+
+        break;
+      }
+
+      case 2442: {
+        int n;
+
+        std::cout << "N을 입력하세요 : ";
+        std::cin >> n;
+
+        solved_ac::print_stars_5(n);
 
         break;
       }

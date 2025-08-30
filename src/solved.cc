@@ -103,6 +103,27 @@ void print_stars_4(int n) {
   std::cout << "================================" << std::endl;
 }
 
+void print_stars_5(int n) {
+  std::cout << "=== 2442번 별 찍기-5 문제 해결 ===" << std::endl;
+  std::cout << "입력 : n = " << n << std::endl;
+  std::cout << "출력 : " << std::endl;
+
+  for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= n - i; j++) {
+      std::cout << " ";
+    }
+    for (int j = 1; j <= i; j++) {
+      std::cout << "*";
+    }
+    for (int j = 1; j <= i - 1; j++) {
+      std::cout << "*";
+    }
+    std::cout << "\n";
+  }
+
+  std::cout << "================================" << std::endl;
+}
+
 void print_n_dan(int n) {
   std::cout << "=== 2739번 구구단 문제 해결 ===" << std::endl;
   std::cout << "입력 : n = " << n << std::endl;
