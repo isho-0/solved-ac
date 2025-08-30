@@ -57,7 +57,7 @@ void n_printing(int n);
 // @param n 정수 (n <= 100000)
 void reverse_n_printing(int n);
 
-// 8393번 1부터 n까지 합 문제 해결 함수
+// 8393번 합 문제 해결 함수
 // 정수 n을 입력받아 1부터 n까지의 합을 출력합니다.
 // @param n 정수 (1 <= n <= 10000)
 void sum_from_one_to_n(int n);
