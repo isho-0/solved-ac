@@ -12,6 +12,7 @@
 #include "problems/problem_2442.h"
 #include "problems/problem_2443.h"
 #include "problems/problem_2444.h"
+#include "problems/problem_2522.h"
 #include "problems/problem_2739.h"
 #include "problems/problem_2741.h"
 #include "problems/problem_2742.h"
@@ -30,6 +31,7 @@ ProblemManager::ProblemManager() {
     problems_[2442] = solve_problem_2442;
     problems_[2443] = solve_problem_2443;
     problems_[2444] = solve_problem_2444;
+    problems_[2522] = solve_problem_2522;
     problems_[2739] = solve_problem_2739;
     problems_[2741] = solve_problem_2741;
     problems_[2742] = solve_problem_2742;
