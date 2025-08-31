@@ -26,3 +26,4 @@ void solve_problem_2442() {
 
     std::cout << "================================" << std::endl;
 }
+

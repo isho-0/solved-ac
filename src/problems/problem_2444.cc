@@ -31,7 +31,6 @@ void solve_problem_2444() {
       } else {
         std::cout << "*";
       }
-
     }
     for (int j = n; j > i; j--) {
       std::cout << "*";

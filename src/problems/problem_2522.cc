@@ -11,12 +11,14 @@ void solve_problem_2522() {
   std::cout << "입력 : n = " << n << "\n";
   std::cout << "출력 : " << "\n";
 
-  for (int i = 1; i <= 2*n - 1; i++) {
+  for (int i = 1; i <= 2 * n - 1; i++) {
     int spaces = (i <= n) ? n - i : i - n;
-    int stars  = (i <= n) ? i     : 2*n - i;
+    int stars = (i <= n) ? i : 2 * n - i;
 
-    for (int j = 0; j < spaces; j++) std::cout << " ";
-    for (int j = 0; j < stars;  j++) std::cout << "*";
+    for (int j = 0; j < spaces; j++)
+      std::cout << " ";
+    for (int j = 0; j < stars; j++)
+      std::cout << "*";
     std::cout << "\n";
   }
 

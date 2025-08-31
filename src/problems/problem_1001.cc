@@ -13,3 +13,4 @@ void solve_problem_1001() {
     
     std::cout << "================================" << std::endl;
 }
+
