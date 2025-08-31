@@ -159,6 +159,7 @@ git commit -m "fix: 2438번 문제 출력 형식 수정"
 1. **문제 파일 생성**: `src/problems/` 디렉토리에 `problem_XXXX.h`와 `problem_XXXX.cc` 파일 생성
 2. **함수 구현**: `solve_problem_XXXX()` 함수를 구현
 3. **ProblemManager에 등록**: `src/problem_manager.cc`에서 문제 번호와 함수를 등록
+4. **자동 빌드**: CMake가 GLOB 패턴으로 자동으로 새 파일을 찾아 빌드에 포함
 
 **예시**:
 
