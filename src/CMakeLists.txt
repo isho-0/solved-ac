@@ -1,45 +1,21 @@
-# 소스 파일들
-set(SOURCES
+# 소스 파일들을 자동으로 찾기
+file(GLOB PROBLEM_SOURCES "problems/problem_*.cc")
+file(GLOB PROBLEM_HEADERS "problems/problem_*.h")
+
+# 기본 소스 파일들
+set(BASE_SOURCES
     main.cc
     problem_manager.cc
-    problems/problem_1000.cc
-    problems/problem_1001.cc
-    problems/problem_2438.cc
-    problems/problem_2439.cc
-    problems/problem_2440.cc
-    problems/problem_2441.cc
-    problems/problem_2442.cc
-    problems/problem_2443.cc
-    problems/problem_2444.cc
-    problems/problem_2522.cc
-    problems/problem_2739.cc
-    problems/problem_2741.cc
-    problems/problem_2742.cc
-    problems/problem_8393.cc
-    problems/problem_10950.cc
-    problems/problem_10952.cc
 )
 
-# 헤더 파일들
-set(HEADERS
+# 기본 헤더 파일들
+set(BASE_HEADERS
     problem_manager.h
-    problems/problem_1000.h
-    problems/problem_1001.h
-    problems/problem_2438.h
-    problems/problem_2439.h
-    problems/problem_2440.h
-    problems/problem_2441.h
-    problems/problem_2442.h
-    problems/problem_2443.h
-    problems/problem_2444.h
-    problems/problem_2522.h
-    problems/problem_2739.h
-    problems/problem_2741.h
-    problems/problem_2742.h
-    problems/problem_8393.h
-    problems/problem_10950.h
-    problems/problem_10952.h
 )
+
+# 모든 소스와 헤더 파일 합치기
+set(SOURCES ${BASE_SOURCES} ${PROBLEM_SOURCES})
+set(HEADERS ${BASE_HEADERS} ${PROBLEM_HEADERS})
 
 # 실행 파일 생성
 add_executable(solved-ac ${SOURCES} ${HEADERS})
