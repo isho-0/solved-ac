@@ -1,0 +1,9 @@
+#ifndef PROBLEM_INCLUDES_H
+#define PROBLEM_INCLUDES_H
+
+// 이 파일은 CMake에 의해 자동으로 생성됩니다.
+// problems/ 디렉토리의 모든 문제 헤더 파일들을 자동으로 include합니다.
+
+@PROBLEM_INCLUDES@
+
+#endif  // PROBLEM_INCLUDES_H

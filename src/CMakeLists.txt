@@ -2,6 +2,22 @@
 file(GLOB PROBLEM_SOURCES "problems/problem_*.cc")
 file(GLOB PROBLEM_HEADERS "problems/problem_*.h")
 
+# 자동으로 problem_includes.h 파일 생성
+set(PROBLEM_INCLUDES_FILE "${CMAKE_CURRENT_SOURCE_DIR}/problem_includes.h")
+
+# 문제 헤더 파일들로부터 include 문 생성
+set(PROBLEM_INCLUDES "")
+foreach(HEADER ${PROBLEM_HEADERS})
+    get_filename_component(HEADER_NAME ${HEADER} NAME)
+    set(PROBLEM_INCLUDES "${PROBLEM_INCLUDES}#include \"problems/${HEADER_NAME}\"\n")
+endforeach()
+
+configure_file(
+    "${CMAKE_CURRENT_SOURCE_DIR}/problem_includes.h.in"
+    "${PROBLEM_INCLUDES_FILE}"
+    @ONLY
+)
+
 # 기본 소스 파일들
 set(BASE_SOURCES
     main.cc
@@ -11,6 +27,7 @@ set(BASE_SOURCES
 # 기본 헤더 파일들
 set(BASE_HEADERS
     problem_manager.h
+    problem_includes.h
 )
 
 # 모든 소스와 헤더 파일 합치기
