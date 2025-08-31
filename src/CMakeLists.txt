@@ -10,6 +10,7 @@ set(SOURCES
     problems/problem_2441.cc
     problems/problem_2442.cc
     problems/problem_2443.cc
+    problems/problem_2444.cc
     problems/problem_2739.cc
     problems/problem_2741.cc
     problems/problem_2742.cc
@@ -29,6 +30,7 @@ set(HEADERS
     problems/problem_2441.h
     problems/problem_2442.h
     problems/problem_2443.h
+    problems/problem_2444.h
     problems/problem_2739.h
     problems/problem_2741.h
     problems/problem_2742.h
