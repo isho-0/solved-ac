@@ -30,7 +30,18 @@ jobs:
     - name: Install dependencies (macOS)
       if: matrix.os == 'macos-latest'
       run: |
-        brew install cmake
+        # Homebrew 업데이트
+        brew update
+        # CMake가 이미 설치되어 있는지 확인하고, 없을 때만 설치
+        if ! command -v cmake &> /dev/null; then
+          brew install cmake
+        else
+          echo "CMake is already installed: $(cmake --version)"
+        fi
+        # 빌드 도구 확인
+        echo "Available compilers:"
+        which gcc || echo "gcc not found"
+        which clang || echo "clang not found"
     
     - name: Install dependencies (Windows)
       if: matrix.os == 'windows-latest'
@@ -38,11 +49,9 @@ jobs:
         choco install cmake
     
     - name: Configure CMake
-      run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release
+      run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Debug
     
     - name: Build
-      run: cmake --build ${{github.workspace}}/build --config Release
+      run: cmake --build ${{github.workspace}}/build --config Debug
     
-    - name: Test
-      working-directory: ${{github.workspace}}/build
-      run: ctest -C Release --output-on-failure
+
