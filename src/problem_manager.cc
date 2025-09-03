@@ -7,6 +7,7 @@ ProblemManager::ProblemManager() {
   // 문제 등록
   problems_[1000] = solve_problem_1000;
   problems_[1001] = solve_problem_1001;
+  problems_[1977] = solve_problem_1977;
   problems_[2438] = solve_problem_2438;
   problems_[2439] = solve_problem_2439;
   problems_[2440] = solve_problem_2440;
