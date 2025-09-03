@@ -22,6 +22,7 @@
 #include "problems/problem_2739.h"
 #include "problems/problem_2741.h"
 #include "problems/problem_2742.h"
+#include "problems/problem_2908.h"
 #include "problems/problem_8393.h"
 
 
