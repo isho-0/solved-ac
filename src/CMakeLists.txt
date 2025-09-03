@@ -12,6 +12,7 @@ foreach(HEADER ${PROBLEM_HEADERS})
     set(PROBLEM_INCLUDES "${PROBLEM_INCLUDES}#include \"problems/${HEADER_NAME}\"\n")
 endforeach()
 
+# 템플릿 파일에서 problem_includes.h 생성
 configure_file(
     "${CMAKE_CURRENT_SOURCE_DIR}/problem_includes.h.in"
     "${PROBLEM_INCLUDES_FILE}"
