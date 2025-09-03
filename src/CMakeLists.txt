@@ -38,8 +38,22 @@ set(HEADERS ${BASE_HEADERS} ${PROBLEM_HEADERS})
 # 실행 파일 생성
 add_executable(solved-ac ${SOURCES} ${HEADERS})
 
+# CLion을 위한 타겟 설정
+set_target_properties(solved-ac PROPERTIES
+    OUTPUT_NAME "solved-ac"
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/src"
+)
+
 # 헤더 파일 경로 설정
 target_include_directories(solved-ac PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
 # C++ 표준 설정
 target_compile_features(solved-ac PRIVATE cxx_std_17)
+
+# IDE 설정 (Visual Studio Code, CLion 등)
+set_property(TARGET solved-ac PROPERTY FOLDER "Executables")
+
+# 디버그 정보 포함
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
+set(CMAKE_CXX_FLAGS_RELEASE "-O3")

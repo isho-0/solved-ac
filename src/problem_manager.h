@@ -7,7 +7,7 @@
 
 class ProblemManager {
 private:
-    std::unordered_map<int, std::function<void()>> problems_;
+    std::unordered_map<int, std::function<void()> > problems_;
     
 public:
     ProblemManager();
