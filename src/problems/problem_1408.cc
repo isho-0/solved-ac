@@ -3,19 +3,33 @@
 #include <iomanip>
 #include <sstream>
 
-CTU::CTU() : hour(0), minute(0), second(0) {}
-
 void CTU::input_time() {
   std::string t;
   std::cin >> t;
-  hour   = (t[0] - '0') * 10 + (t[1] - '0');
-  minute = (t[3] - '0') * 10 + (t[4] - '0');
-  second = (t[6] - '0') * 10 + (t[7] - '0');
+  hour   = stoi(t.substr(0, 2));
+  minute = stoi(t.substr(3, 2));
+  second = stoi(t.substr(6, 2));
 }
 
-int CTU::get_hour() const { return hour; }
-int CTU::get_minute() const { return minute; }
-int CTU::get_second() const { return second; }
+CTU CTU::diff(const CTU &t1, const CTU &t2) {
+  CTU result;
+  result.hour   = t2.hour   - t1.hour;
+  result.minute = t2.minute - t1.minute;
+  result.second = t2.second - t1.second;
+
+  if (result.second < 0) {
+    result.second += 60;
+    result.minute -= 1;
+  }
+  if (result.minute < 0) {
+    result.minute += 60;
+    result.hour -= 1;
+  }
+  if (result.hour < 0) {
+    result.hour += 24;
+  }
+  return result;
+}
 
 std::string CTU::str() const {
   std::ostringstream oss;
@@ -24,20 +38,6 @@ std::string CTU::str() const {
       << std::setw(2) << minute << ":"
       << std::setw(2) << second;
   return oss.str();
-}
-
-void normalize_time(int &hour, int &minute, int &second) {
-  if (second < 0) {
-    second += 60;
-    minute -= 1;
-  }
-  if (minute < 0) {
-    minute += 60;
-    hour -= 1;
-  }
-  if (hour < 0) {
-    hour += 24;
-  }
 }
 
 void solve_problem_1408() {
@@ -50,17 +50,14 @@ void solve_problem_1408() {
   std::cout << "입력 :  시간1 = " << user1.str()
           << ", 시간2 = " << user2.str() << "\n";
 
-  int h = user2.get_hour() - user1.get_hour();
-  int m = user2.get_minute() - user1.get_minute();
-  int s = user2.get_second() - user1.get_second();
-
-  normalize_time(h, m, s);
+  CTU d = CTU::diff(user1, user2);
 
   std::cout << "출력 : ";
   std::cout << std::setfill('0')
-      << std::setw(2) << h << ":"
-      << std::setw(2) << m << ":"
-      << std::setw(2) << s << std::endl;
+     << std::setw(2) << d.hour << ":"
+     << std::setw(2) << d.minute << ":"
+     << std::setw(2) << d.second << std::endl;
+
 
   std::cout << "================================" << std::endl;
 }
