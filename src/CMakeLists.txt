@@ -36,7 +36,8 @@ set(SOURCES ${BASE_SOURCES} ${PROBLEM_SOURCES})
 set(HEADERS ${BASE_HEADERS} ${PROBLEM_HEADERS})
 
 # 실행 파일 생성
-add_executable(solved-ac ${SOURCES} ${HEADERS})
+add_executable(solved-ac ${SOURCES})
+target_sources(solved-ac PRIVATE ${HEADERS})
 
 # CLion을 위한 타겟 설정
 set_target_properties(solved-ac PROPERTIES
