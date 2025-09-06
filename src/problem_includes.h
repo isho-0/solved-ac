@@ -8,6 +8,7 @@
 #include "problems/problem_1001.h"
 #include "problems/problem_10950.h"
 #include "problems/problem_10952.h"
+#include "problems/problem_11098.h"
 #include "problems/problem_1408.h"
 #include "problems/problem_1977.h"
 #include "problems/problem_2438.h"
