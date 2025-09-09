@@ -31,5 +31,6 @@
 #include "problems/problem_5635.h"
 #include "problems/problem_8393.h"
 
+#include "problems/problem_10984.h"
 
 #endif  // PROBLEM_INCLUDES_H
