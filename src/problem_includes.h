@@ -26,6 +26,7 @@
 #include "problems/problem_2522.h"
 #include "problems/problem_2523.h"
 #include "problems/problem_2557.h"
+#include "problems/problem_2609.h"
 #include "problems/problem_2739.h"
 #include "problems/problem_2741.h"
 #include "problems/problem_2742.h"
