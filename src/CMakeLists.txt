@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(solved-ac)
+
 # 소스 파일들을 자동으로 찾기
 file(GLOB PROBLEM_SOURCES "problems/problem_*.cc")
 file(GLOB PROBLEM_HEADERS "problems/problem_*.h")
