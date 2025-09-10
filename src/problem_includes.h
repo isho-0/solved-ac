@@ -6,6 +6,11 @@
 
 #include "problems/problem_1000.h"
 #include "problems/problem_1001.h"
+#include "problems/problem_10833.h"
+#include "problems/problem_10950.h"
+#include "problems/problem_10952.h"
+#include "problems/problem_10984.h"
+#include "problems/problem_11098.h"
 #include "problems/problem_1408.h"
 #include "problems/problem_1977.h"
 #include "problems/problem_2438.h"
@@ -27,9 +32,6 @@
 #include "problems/problem_5565.h"
 #include "problems/problem_5635.h"
 #include "problems/problem_8393.h"
-#include "problems/problem_10950.h"
-#include "problems/problem_10952.h"
-#include "problems/problem_10984.h"
-#include "problems/problem_11098.h"
+
 
 #endif  // PROBLEM_INCLUDES_H
