@@ -15,6 +15,7 @@
 #include "problems/problem_11098.h"
 #include "problems/problem_1408.h"
 #include "problems/problem_1977.h"
+#include "problems/problem_2010.h"
 #include "problems/problem_2438.h"
 #include "problems/problem_2439.h"
 #include "problems/problem_2440.h"
