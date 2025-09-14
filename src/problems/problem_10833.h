@@ -3,8 +3,8 @@
 
 class School {
 public:
-  int students;
-  int apple;
+    int students;
+    int apple;
 };
 
 void solve_problem_10833();
