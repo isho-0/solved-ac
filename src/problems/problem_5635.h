@@ -5,10 +5,10 @@
 
 class Student {
 public:
-  std::string name;
-  int day;
-  int month;
-  int year;
+    std::string name;
+    int day;
+    int month;
+    int year;
 };
 
 void solve_problem_5635();
