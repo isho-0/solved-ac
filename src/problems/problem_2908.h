@@ -3,16 +3,16 @@
 
 class Number {
 private:
-  int hundreds;
-  int tens;
-  int ones;
+    int hundreds;
+    int tens;
+    int ones;
 
 public:
-  Number(int value);
+    Number(int value);
 
-  void swap_digits();
+    void swap_digits();
 
-  int to_int() const;
+    int to_int() const;
 };
 
 void solve_problem_2908();
