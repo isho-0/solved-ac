@@ -13,7 +13,7 @@ void solve_problem_10178() {
 
         std::cin >> c >> v;
 
-        std::cout << "You get " << c/v << " piece(s) and your dad gets " << c%v << " piece(s).\n";
+        std::cout << "You get " << c / v << " piece(s) and your dad gets " << c % v << " piece(s).\n";
     }
 
     std::cout << "================================" << std::endl;
