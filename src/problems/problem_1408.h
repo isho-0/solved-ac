@@ -5,13 +5,15 @@
 
 class CTU {
 public:
-  int hour;
-  int minute;
-  int second;
+    int hour;
+    int minute;
+    int second;
 
-  void input_time();
-  static CTU diff(const CTU &t1, const CTU &t2);
-  std::string str() const;
+    void input_time();
+
+    static CTU diff(const CTU &t1, const CTU &t2);
+
+    std::string str() const;
 };
 
 void solve_problem_1408();
