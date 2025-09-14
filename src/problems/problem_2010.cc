@@ -15,7 +15,7 @@ void solve_problem_2010() {
         sum += multitab;
     }
 
-    std::cout << sum-(n-1) << std::endl;
+    std::cout << sum - (n - 1) << std::endl;
 
     std::cout << "================================" << std::endl;
 }
