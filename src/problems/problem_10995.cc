@@ -2,7 +2,7 @@
 #include <iostream>
 
 void solve_problem_10995() {
-  std::cout << "=== 10995번 별 찍기-20 문제 해결 ===" << std::endl;
+    std::cout << "=== 10995번 별 찍기-20 문제 해결 ===" << std::endl;
     int n;
 
     std::cin >> n;
