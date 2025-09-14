@@ -4,10 +4,3 @@
 void solve_problem_2742();
 
 #endif
-
-
-
-
-
-
-
