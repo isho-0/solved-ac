@@ -1,7 +1,7 @@
 #include "problem_2581.h"
 #include <iostream>
 
-bool is_prime(int n) {
+bool valid_prime(int n) {
     if (n < 2) return false;
     for (int i = 2; i * i <= n; i++) {
         if (n % i == 0) return false;
@@ -17,7 +17,7 @@ void solve_problem_2581() {
     int min_prime = -1;
 
     for (int i = m; i <= n; i++) {
-        if (is_prime(i)) {
+        if (valid_prime(i)) {
             sum += i;
             if (min_prime == -1) min_prime = i;
         }
