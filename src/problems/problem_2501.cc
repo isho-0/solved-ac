@@ -13,7 +13,7 @@ void solve_problem_2501() {
             count++;
             if (count == K) {
                 std::cout << i << "\n";
-                return 0;
+                return;
             }
         }
     }
