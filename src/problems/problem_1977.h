@@ -4,16 +4,17 @@
 
 class PerfectSquareFinder {
 private:
-  int m;
-  int n;
-  int sum;
-  int min_val;
+    int m;
+    int n;
+    int sum;
+    int min_val;
 
 public:
-  PerfectSquareFinder(int m, int n);
+    PerfectSquareFinder(int m, int n);
 
-  void find();
-  void print_result() const;
+    void find();
+
+    void print_result() const;
 };
 
 void solve_problem_1977();
