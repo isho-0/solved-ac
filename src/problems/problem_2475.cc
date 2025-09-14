@@ -7,7 +7,7 @@ void solve_problem_2475() {
     int arr[6];
     int last_arr_num = 0;
 
-    for(int i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++) {
         std::cin >> arr[i];
         last_arr_num += (arr[i] * arr[i]);
     }
