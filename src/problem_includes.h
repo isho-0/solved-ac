@@ -14,6 +14,7 @@
 #include "problems/problem_10950.h"
 #include "problems/problem_10952.h"
 #include "problems/problem_10984.h"
+#include "problems/problem_10991.h"
 #include "problems/problem_10995.h"
 #include "problems/problem_11098.h"
 #include "problems/problem_1408.h"

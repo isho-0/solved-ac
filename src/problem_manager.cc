@@ -50,6 +50,7 @@ ProblemManager::ProblemManager() {
     problems_[10950] = solve_problem_10950;
     problems_[10952] = solve_problem_10952;
     problems_[10984] = solve_problem_10984;
+    problems_[10991] = solve_problem_10991;
     problems_[10995] = solve_problem_10995;
     problems_[11098] = solve_problem_11098;
 }
@@ -70,13 +71,12 @@ void ProblemManager::run() {
 }
 
 void ProblemManager::solve_problem(int number) {
-  auto it = problems_.find(number);
-  if (it != problems_.end()) {
-    std::cout << "문제 " << number << "을(를) 해결하겠습니다." << std::endl;
-    it->second();  // 문제 해결 함수 호출
-  } else {
-    std::cout << "문제 " << number << "은(는) 아직 구현되지 않았습니다."
-              << std::endl;
-  }
     auto it = problems_.find(number);
+    if (it != problems_.end()) {
+        std::cout << "문제 " << number << "을(를) 해결하겠습니다." << std::endl;
+        it->second(); // 문제 해결 함수 호출
+    } else {
+        std::cout << "문제 " << number << "은(는) 아직 구현되지 않았습니다."
+                << std::endl;
+    }
 }
