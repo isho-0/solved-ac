@@ -8,18 +8,13 @@
 class ProblemManager {
 private:
     std::unordered_map<int, std::function<void()> > problems_;
-    
+
 public:
     ProblemManager();
+
     void run();
+
     void solve_problem(int number);
 };
 
 #endif
-
-
-
-
-
-
-
