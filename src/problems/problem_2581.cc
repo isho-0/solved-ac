@@ -10,6 +10,8 @@ bool valid_prime(int n) {
 }
 
 void solve_problem_2581() {
+    std::cout << "=== 2581번 소수 문제 해결 ===" << std::endl;
+
     int m, n;
     std::cin >> m >> n;
 
@@ -28,4 +30,6 @@ void solve_problem_2581() {
     } else {
         std::cout << sum << "\n" << min_prime << "\n";
     }
+
+    std::cout << "================================" << std::endl;
 }
