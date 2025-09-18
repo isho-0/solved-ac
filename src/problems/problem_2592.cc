@@ -19,13 +19,13 @@ void solve_problem_2592() {
 
     std::map<int, int> freq;
 
-    for (int num : data) {
+    for (int num: data) {
         freq[num]++;
     }
 
     int mode = data[0];
     int max_freq = freq[mode];
-    for (auto &p : freq) {
+    for (auto &p: freq) {
         if (p.second > max_freq) {
             max_freq = p.second;
             mode = p.first;
