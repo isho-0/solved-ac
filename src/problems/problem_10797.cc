@@ -10,7 +10,7 @@ void solve_problem_10797() {
 
     std::cin >> n;
 
-    for (int & i : arr) {
+    for (int &i: arr) {
         std::cin >> i;
         if (i == n) {
             count++;
