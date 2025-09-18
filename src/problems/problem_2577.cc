@@ -15,7 +15,7 @@ void solve_problem_2577() {
 
     std::string s = std::to_string(result);
 
-    for (char ch : s) {
+    for (char ch: s) {
         int digit = ch - '0';
         freq[digit]++;
     }
