@@ -1,5 +1,6 @@
 #include "problem_10818.h"
 #include <iostream>
+#include <limits>
 
 void solve_problem_10818() {
     std::cout << "=== 10818번 최소, 최대 문제 해결 ===" << std::endl;
