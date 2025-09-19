@@ -48,6 +48,7 @@
 #include "problems/problem_2581.h"
 #include "problems/problem_2592.h"
 #include "problems/problem_2609.h"
+#include "problems/problem_2711.h"
 #include "problems/problem_2739.h"
 #include "problems/problem_2741.h"
 #include "problems/problem_2742.h"
