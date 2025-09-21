@@ -69,6 +69,7 @@
 #include "problems/problem_2739.h"
 #include "problems/problem_2741.h"
 #include "problems/problem_2742.h"
+#include "problems/problem_2744.h"
 #include "problems/problem_2748.h"
 #include "problems/problem_2753.h"
 #include "problems/problem_2908.h"
