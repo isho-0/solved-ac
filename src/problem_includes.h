@@ -34,6 +34,7 @@
 #include "problems/problem_1977.h"
 #include "problems/problem_1978.h"
 #include "problems/problem_2010.h"
+#include "problems/problem_2420.h"
 #include "problems/problem_2438.h"
 #include "problems/problem_2439.h"
 #include "problems/problem_2440.h"
