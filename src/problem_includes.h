@@ -44,6 +44,7 @@
 #include "problems/problem_2490.h"
 #include "problems/problem_2501.h"
 #include "problems/problem_2506.h"
+#include "problems/problem_25083.h"
 #include "problems/problem_2522.h"
 #include "problems/problem_2523.h"
 #include "problems/problem_2557.h"
