@@ -2,7 +2,7 @@
 #include <iostream>
 
 void solve_problem_2753() {
-    std::cout << "=== 2754번 윤년 문제 해결 ===" << std::endl;
+    std::cout << "=== 2753번 윤년 문제 해결 ===" << std::endl;
 
     int year;
     std::cin >> year;
