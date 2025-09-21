@@ -3,7 +3,7 @@
 #include <vector>
 
 void solve_problem_2738() {
-    std::cout << "=== 2738번 오타맨 고창영 문제 해결 ===" << std::endl;
+    std::cout << "=== 2738번 행렬 덧셈 문제 해결 ===" << std::endl;
 
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
