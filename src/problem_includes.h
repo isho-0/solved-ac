@@ -80,6 +80,7 @@
 #include "problems/problem_9085.h"
 #include "problems/problem_9295.h"
 #include "problems/problem_9325.h"
+#include "problems/problem_9498.h"
 
 
 #endif  // PROBLEM_INCLUDES_H
