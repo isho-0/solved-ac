@@ -6,6 +6,7 @@
 
 #include "problems/problem_1000.h"
 #include "problems/problem_1001.h"
+#include "problems/problem_1008.h"
 #include "problems/problem_10171.h"
 #include "problems/problem_10172.h"
 #include "problems/problem_10178.h"
