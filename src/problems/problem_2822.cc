@@ -3,16 +3,14 @@
 #include <vector>
 #include <algorithm>
 
-using namespace std;
-
 void solve_problem_2822() {
     std::cout << "=== 2822번 점수 계산 문제 해결 ===" << std::endl;
 
-    vector<pair<int,int>> v;
+    std::vector<std::pair<int,int>> v;
 
     for(int i = 0; i < 8; i++) {
         int x;
-        cin >> x;
+        std::cin >> x;
         v.push_back({x, i+1});
     }
 
@@ -21,7 +19,7 @@ void solve_problem_2822() {
     });
 
     int sum = 0;
-    vector<int> idx;
+    std::vector<int> idx;
     for (int i = 0; i < 5; i++) {
         sum += v[i].first;
         idx.push_back(v[i].second);
@@ -29,8 +27,8 @@ void solve_problem_2822() {
 
     sort(idx.begin(), idx.end());
 
-    cout << sum << "\n";
-    for (int x : idx) cout << x << " ";
+    std::cout << sum << "\n";
+    for (int x : idx) std::cout << x << " ";
 
     std::cout << "================================" << std::endl;
 }
