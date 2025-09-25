@@ -1,5 +1,6 @@
 #include "problem_10807.h"
 #include <iostream>
+#include <vector>
 
 void solve_problem_10807() {
     std::cout << "=== 10807번 개수 세기 문제 해결 ===" << std::endl;
@@ -7,7 +8,7 @@ void solve_problem_10807() {
     int t;
     std::cin >> t;
 
-    int arr[t];
+    std::vector<int> arr(t);
     int v;
     int count = 0;
 
