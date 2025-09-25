@@ -1,5 +1,6 @@
 #include "problem_10871.h"
 #include <iostream>
+#include <vector>
 
 void solve_problem_10871() {
     std::cout << "=== 10871번 X보다 작은 수 문제 해결 ===" << std::endl;
@@ -7,7 +8,7 @@ void solve_problem_10871() {
     int n, x;
 
     std::cin >> n >> x;
-    int a[n];
+    std::vector<int> a(n);
 
     for (int i = 0; i < n; i++) {
         std::cin >> a[i];
