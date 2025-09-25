@@ -2,9 +2,7 @@
 #include "problem_includes.h"
 #include <iostream>
 #include <string>
-#ifdef _WIN32
-#include <windows.h> // 윈도우 콘솔 출력 UTF-8 전환
-#endif
+//#include <windows.h> // 윈도우 콘솔 출력 UTF-8 전환
 
 ProblemManager::ProblemManager() {
     // 문제 등록
@@ -44,7 +42,6 @@ ProblemManager::ProblemManager() {
     problems_[2592] = solve_problem_2592;
     problems_[2581] = solve_problem_2581;
     problems_[2711] = solve_problem_2711;
-    problems_[2720] = solve_problem_2720;
     problems_[2738] = solve_problem_2738;
     problems_[2739] = solve_problem_2739;
     problems_[2741] = solve_problem_2741;
@@ -109,20 +106,16 @@ ProblemManager::ProblemManager() {
     problems_[15552] = solve_problem_15552;
     problems_[15964] = solve_problem_15964;
     problems_[16430] = solve_problem_16430;
-    problems_[24883] = solve_problem_24883;
     problems_[25083] = solve_problem_25083;
     problems_[27323] = solve_problem_27323;
     problems_[27866] = solve_problem_27866;
-    problems_[28444] = solve_problem_28444;
     problems_[29863] = solve_problem_29863;
     problems_[30224] = solve_problem_30224;
-    problems_[31962] = solve_problem_31962;
 }
 
 void ProblemManager::run() {
-#ifdef _WIN32
-    SetConsoleOutputCP(CP_UTF8); // Windows 전용
-#endif
+    // 윈도우 콘솔 출력 UTF-8 전환
+    //SetConsoleOutputCP(CP_UTF8);
 
     std::cout << "=== Solved.ac 문제 해결 프로젝트 ===" << std::endl;
     std::cout << "문제 번호를 입력하세요 : ";
