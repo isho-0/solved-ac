@@ -22,7 +22,7 @@ void defscore(int i) {
     }
 }
 
-void solve_problem_27866() {
+void solve_problem_17826() {
     std::vector<int> scores(50);
 
     for (int i = 0; i < 50; i++) {
