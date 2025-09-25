@@ -114,6 +114,7 @@ ProblemManager::ProblemManager() {
     problems_[28444] = solve_problem_28444;
     problems_[29863] = solve_problem_29863;
     problems_[30224] = solve_problem_30224;
+    problems_[31962] = solve_problem_31962;
 }
 
 void ProblemManager::run() {
