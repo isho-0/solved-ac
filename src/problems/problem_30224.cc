@@ -1,5 +1,6 @@
 #include "problem_30224.h"
 #include <iostream>
+#include <string>
 
 void solve_problem_30224() {
     std::cout << "=== 30224번 Lucky 7 문제 해결 ===" << std::endl;
