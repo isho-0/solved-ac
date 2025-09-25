@@ -74,6 +74,7 @@
 #include "problems/problem_2592.h"
 #include "problems/problem_2609.h"
 #include "problems/problem_2711.h"
+#include "problems/problem_2720.h"
 #include "problems/problem_27323.h"
 #include "problems/problem_2738.h"
 #include "problems/problem_2739.h"
