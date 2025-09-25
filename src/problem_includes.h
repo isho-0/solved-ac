@@ -65,6 +65,7 @@
 #include "problems/problem_25083.h"
 #include "problems/problem_2522.h"
 #include "problems/problem_2523.h"
+#include "problems/problem_25311.h"
 #include "problems/problem_2557.h"
 #include "problems/problem_2562.h"
 #include "problems/problem_2576.h"
