@@ -114,6 +114,7 @@
 #include "problems/problem_5522.h"
 #include "problems/problem_5543.h"
 #include "problems/problem_5565.h"
+#include "problems/problem_5576.h"
 #include "problems/problem_5597.h"
 #include "problems/problem_5598.h"
 #include "problems/problem_5635.h"
