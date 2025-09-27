@@ -111,6 +111,7 @@ ProblemManager::ProblemManager() {
     problems_[10995] = solve_problem_10995;
     problems_[10998] = solve_problem_10998;
     problems_[11021] = solve_problem_11021;
+    problems_[11047] = solve_problem_11047;
     problems_[11098] = solve_problem_11098;
     problems_[11382] = solve_problem_11382;
     problems_[11654] = solve_problem_11654;
