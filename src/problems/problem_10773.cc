@@ -3,7 +3,7 @@
 #include <stack>
 
 void solve_problem_10773() {
-    std::cout << "=== 10773 제로 문제 해결 ===" << std::endl;
+    std::cout << "=== 10773번 제로 문제 해결 ===" << std::endl;
 
     int K;
     std::cin >> K;
