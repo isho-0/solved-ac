@@ -21,6 +21,8 @@ void cal(int price) {
 
 
 void solve_problem_2720() {
+    std::cout << "=== 2720번 세탁소 사장 동혁 문제 해결 ===" << std::endl;
+
     int test_case;
     std::cin >> test_case;
 
@@ -29,4 +31,6 @@ void solve_problem_2720() {
         std::cin >> price;
         cal(price);
     }
+
+    std::cout << "================================" << std::endl;
 }
