@@ -4,7 +4,7 @@
 #include <algorithm>
 
 void solve_problem_2693() {
-    std::cout << "=== 2693 점수 집계 문제 해결 ===" << std::endl;
+    std::cout << "=== 2693번 점수 집계 문제 해결 ===" << std::endl;
 
     int test_case;
     std::cin >> test_case;
