@@ -3,7 +3,7 @@
 #include <algorithm>
 
 void solve_problem_3040() {
-    std::cout << "=== 3040 백설 공주와 일곱 난쟁이 문제 해결 ===" << std::endl;
+    std::cout << "=== 3040번 백설 공주와 일곱 난쟁이 문제 해결 ===" << std::endl;
 
     int n[9], total = 0;
 
