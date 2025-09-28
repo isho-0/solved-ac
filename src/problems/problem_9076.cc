@@ -1,6 +1,7 @@
 #include "problem_9076.h"
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 void solve_problem_9076() {
     std::cout << "=== 9076 점수 집계 문제 해결 ===" << std::endl;
