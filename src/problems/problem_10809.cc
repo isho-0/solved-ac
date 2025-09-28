@@ -2,7 +2,7 @@
 #include <iostream>
 
 void solve_problem_10809() {
-    std::cout << "=== 10809 알파벳 찾기 문제 해결 ===" << std::endl;
+    std::cout << "=== 10809번 알파벳 찾기 문제 해결 ===" << std::endl;
 
     std::string word;
     std::cin >> word;
