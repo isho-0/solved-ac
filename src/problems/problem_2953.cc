@@ -2,7 +2,7 @@
 #include <iostream>
 
 void solve_problem_2953() {
-    std::cout << "=== 2953 도미노 문제 해결 ===" << std::endl;
+    std::cout << "=== 2953번 나는 요리사다 문제 해결 ===" << std::endl;
 
     int cook[5][4];
     int winner = 0;
