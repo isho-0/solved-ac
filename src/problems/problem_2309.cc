@@ -4,7 +4,7 @@
 #include <algorithm>
 
 void solve_problem_2309() {
-    std::cout << "=== 2309 일곱 난쟁이 문제 해결 ===" << std::endl;
+    std::cout << "=== 2309번 일곱 난쟁이 문제 해결 ===" << std::endl;
 
     std::vector<int> n(9);
     int sum = 0;
