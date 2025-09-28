@@ -4,7 +4,7 @@
 #include <ctime>
 
 void solve_problem_10699() {
-    std::cout << "=== 10699 오늘 날짜 문제 해결 ===" << std::endl;
+    std::cout << "=== 10699번 오늘 날짜 문제 해결 ===" << std::endl;
 
     time_t now = time(0);
     tm *ltm = localtime(&now);
