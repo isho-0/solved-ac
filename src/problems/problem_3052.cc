@@ -3,7 +3,7 @@
 #include <set>
 
 void solve_problem_3052() {
-    std::cout << "=== 3052 나머지 문제 해결 ===" << std::endl;
+    std::cout << "=== 3052번 나머지 문제 해결 ===" << std::endl;
 
     int n;
     std::set<int> remainders;
