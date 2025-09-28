@@ -3,7 +3,7 @@
 #include <string>
 
 void solve_problem_11718() {
-    std::cout << "=== 11718 그대로 출력하기 문제 해결 ===" << std::endl;
+    std::cout << "=== 11718번 그대로 출력하기 문제 해결 ===" << std::endl;
 
     std::string word;
 
