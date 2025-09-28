@@ -20,6 +20,6 @@ void solve_problem_2675() {
         }
         std::cout << "\n";
     }
-    
+
     std::cout << "================================" << std::endl;
 }
