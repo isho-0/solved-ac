@@ -2,7 +2,7 @@
 #include <iostream>
 
 void solve_problem_10178() {
-    std::cout << "=== 10178 할로윈의 사탕 문제 해결 ===" << std::endl;
+    std::cout << "=== 10178번 할로윈의 사탕 문제 해결 ===" << std::endl;
 
     int t;
 
