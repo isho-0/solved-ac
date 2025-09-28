@@ -103,6 +103,7 @@
 #include "problems/problem_27866.h"
 #include "problems/problem_2822.h"
 #include "problems/problem_28444.h"
+#include "problems/problem_2884.h"
 #include "problems/problem_2908.h"
 #include "problems/problem_2921.h"
 #include "problems/problem_2953.h"
