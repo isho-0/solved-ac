@@ -23,6 +23,8 @@ void defscore(int i) {
 }
 
 void solve_problem_17826() {
+    std::cout << "=== 17826번 나의 학점은? 문제 해결 ===" << std::endl;
+
     std::vector<int> scores(50);
 
     for (int i = 0; i < 50; i++) {
@@ -40,4 +42,6 @@ void solve_problem_17826() {
             break;
         }
     }
+
+    std::cout << "================================" << std::endl;
 }
