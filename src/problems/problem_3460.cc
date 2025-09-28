@@ -2,7 +2,7 @@
 #include <iostream>
 
 void solve_problem_3460() {
-    std::cout << "=== 3460 이진수 문제 해결 ===" << std::endl;
+    std::cout << "=== 3460번 이진수 문제 해결 ===" << std::endl;
 
     int t;
     std::cin >> t;
