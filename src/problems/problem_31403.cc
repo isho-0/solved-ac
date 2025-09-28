@@ -3,7 +3,7 @@
 #include <string>
 
 void solve_problem_31403() {
-    std::cout << "=== 31403 A + B - C 문제 해결 ===" << std::endl;
+    std::cout << "=== 31403번 A + B - C 문제 해결 ===" << std::endl;
 
     int a, b, c;
     std::cin >> a >> b >> c;
