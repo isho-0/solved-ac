@@ -98,6 +98,7 @@
 #include "problems/problem_2741.h"
 #include "problems/problem_2742.h"
 #include "problems/problem_2743.h"
+#include "problems/problem_27434.h"
 #include "problems/problem_2744.h"
 #include "problems/problem_2748.h"
 #include "problems/problem_2750.h"
