@@ -132,6 +132,7 @@
 #include "problems/problem_5598.h"
 #include "problems/problem_5635.h"
 #include "problems/problem_5800.h"
+#include "problems/problem_6825.h"
 #include "problems/problem_7287.h"
 #include "problems/problem_8393.h"
 #include "problems/problem_8958.h"
