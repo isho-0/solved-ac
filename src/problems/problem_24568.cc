@@ -6,7 +6,13 @@ void solve_problem_24568() {
 
     int r, s;
     std::cin >> r >> s;
-    std::cout << (r * 8 + s * 3) - 20 << "\n";
+
+    int result = r * 8 + s * 3 - 28;
+
+    if (result < 0) {
+      result = 0;
+    }
+    std::cout << result << "\n";
 
     std::cout << "================================" << std::endl;
 }
