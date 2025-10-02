@@ -123,6 +123,7 @@
 #include "problems/problem_31403.h"
 #include "problems/problem_31962.h"
 #include "problems/problem_32384.h"
+#include "problems/problem_33046.h"
 #include "problems/problem_3460.h"
 #include "problems/problem_5054.h"
 #include "problems/problem_5176.h"
