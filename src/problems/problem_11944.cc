@@ -3,6 +3,8 @@
 #include <string>
 
 void solve_problem_11944() {
+    std::cout << "=== 11944번 NN 문제 해결 ===" << std::endl;
+
     int n, m;
     std::cin >> n >> m;
 
@@ -17,5 +19,5 @@ void solve_problem_11944() {
         }
     }
 
-    std::cout << result << "\n";
+    std::cout << "================================" << std::endl;
 }
