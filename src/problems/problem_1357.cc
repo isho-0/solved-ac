@@ -9,6 +9,8 @@ static int revert(const std::string &num) {
 }
 
 void solve_problem_1357() {
+    std::cout << "=== 1357번 뒤짓힌 덧셈 문제 해결 ===" << std::endl;
+
     std::string x, y;
     std::cin >> x >> y;
 
@@ -21,4 +23,6 @@ void solve_problem_1357() {
     std::reverse(sum_str.begin(), sum_str.end());
 
     std::cout << std::stoi(sum_str) << "\n";
+
+    std::cout << "================================" << std::endl;
 }
