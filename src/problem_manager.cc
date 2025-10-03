@@ -134,6 +134,8 @@ ProblemManager::ProblemManager() {
     problems_[15964] = solve_problem_15964;
     problems_[16430] = solve_problem_16430;
     problems_[17826] = solve_problem_17826;
+    problems_[21553] = solve_problem_21553;
+    problems_[24267] = solve_problem_24267;
     problems_[24883] = solve_problem_24883;
     problems_[24568] = solve_problem_24568;
     problems_[25083] = solve_problem_25083;
@@ -147,6 +149,7 @@ ProblemManager::ProblemManager() {
     problems_[31403] = solve_problem_31403;
     problems_[31962] = solve_problem_31962;
     problems_[32384] = solve_problem_32384;
+    problems_[33046] = solve_problem_33046;
 }
 
 void ProblemManager::run() {
