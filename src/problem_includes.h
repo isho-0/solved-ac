@@ -42,6 +42,7 @@
 #include "problems/problem_11098.h"
 #include "problems/problem_11382.h"
 #include "problems/problem_1152.h"
+#include "problems/problem_1157.h"
 #include "problems/problem_11654.h"
 #include "problems/problem_11718.h"
 #include "problems/problem_11720.h"
