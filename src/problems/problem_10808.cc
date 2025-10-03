@@ -16,6 +16,7 @@ void solve_problem_10808() {
     for (int i = 0; i < 26; i++) {
         std::cout << alphabet[i] << " ";
     }
+    std::cout << "\n";
 
     std::cout << "================================" << std::endl;
 }
