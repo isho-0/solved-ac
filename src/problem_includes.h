@@ -129,6 +129,7 @@
 #include "problems/problem_2908.h"
 #include "problems/problem_2920.h"
 #include "problems/problem_2921.h"
+#include "problems/problem_2948.h"
 #include "problems/problem_2953.h"
 #include "problems/problem_29863.h"
 #include "problems/problem_30224.h"
