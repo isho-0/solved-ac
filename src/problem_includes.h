@@ -74,6 +74,7 @@
 #include "problems/problem_1978.h"
 #include "problems/problem_2010.h"
 #include "problems/problem_21553.h"
+#include "problems/problem_2292.h"
 #include "problems/problem_2309.h"
 #include "problems/problem_2420.h"
 #include "problems/problem_24267.h"
