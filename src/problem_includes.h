@@ -29,6 +29,7 @@
 #include "problems/problem_10870.h"
 #include "problems/problem_10871.h"
 #include "problems/problem_10872.h"
+#include "problems/problem_10926.h"
 #include "problems/problem_10950.h"
 #include "problems/problem_10951.h"
 #include "problems/problem_10952.h"
