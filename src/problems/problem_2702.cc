@@ -1,7 +1,7 @@
 #include "problem_2702.h"
 #include <iostream>
 
-int gcd(int a, int b) {
+static int gcd(int a, int b) {
     while (b != 0) {
         int temp = a % b;
         a = b;
@@ -10,7 +10,7 @@ int gcd(int a, int b) {
     return a;
 }
 
-int lcm(int a, int b) {
+static int lcm(int a, int b) {
     return (a * b) / gcd(a, b);
 }
 
