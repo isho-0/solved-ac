@@ -1,7 +1,7 @@
 #include "problem_2609.h"
 #include <iostream>
 
-int gcd(int a, int b) {
+static int gcd(int a, int b) {
     while (b != 0) {
         int r = a % b;
         a = b;
@@ -10,7 +10,7 @@ int gcd(int a, int b) {
     return a;
 }
 
-int lcm(int a, int b) {
+static int lcm(int a, int b) {
     return a / gcd(a, b) * b;
 }
 
