@@ -68,6 +68,7 @@
 #include "problems/problem_14681.h"
 #include "problems/problem_1546.h"
 #include "problems/problem_15552.h"
+#include "problems/problem_15667.h"
 #include "problems/problem_15829.h"
 #include "problems/problem_15964.h"
 #include "problems/problem_16430.h"
