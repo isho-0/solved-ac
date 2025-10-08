@@ -10,7 +10,7 @@ void solve_problem_29863() {
     int hours = 0;
     if (sleep <= 3) {
         hours = wake - sleep;
-    }else {
+    } else {
         hours = (wake + 24) - sleep;
     }
     std::cout << hours << "\n";

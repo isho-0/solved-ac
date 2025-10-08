@@ -15,11 +15,11 @@ void solve_problem_8958() {
         int score = 0;
         int sum = 0;
 
-        for (char c : s) {
+        for (char c: s) {
             if (c == 'O') {
                 score++;
                 sum += score;
-            }else {
+            } else {
                 score = 0;
             }
         }

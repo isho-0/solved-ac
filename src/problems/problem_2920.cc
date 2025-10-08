@@ -18,9 +18,9 @@ void solve_problem_2920() {
 
     if (numbers == asc) {
         std::cout << "ascending\n";
-    }else if (numbers == desc) {
+    } else if (numbers == desc) {
         std::cout << "descending\n";
-    }else {
+    } else {
         std::cout << "mixed\n";
     }
 

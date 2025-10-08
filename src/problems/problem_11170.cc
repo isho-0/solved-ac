@@ -15,7 +15,7 @@ void solve_problem_11170() {
         int count = 0;
         for (int i = n; i <= m; i++) {
             std::string num = std::to_string(i);
-            for (char c : num) {
+            for (char c: num) {
                 if (c == '0') count++;
             }
         }

@@ -27,8 +27,8 @@ void solve_problem_5800() {
 
         std::cout << "Class " << i + 1 << "\n";
         std::cout << "Max " << numbers[0]
-             << ", Min " << numbers[n - 1]
-             << ", Largest gap " << largest_gap << "\n";
+                << ", Min " << numbers[n - 1]
+                << ", Largest gap " << largest_gap << "\n";
     }
 
     std::cout << "================================" << std::endl;

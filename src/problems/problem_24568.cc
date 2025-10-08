@@ -10,7 +10,7 @@ void solve_problem_24568() {
     int result = r * 8 + s * 3 - 28;
 
     if (result < 0) {
-      result = 0;
+        result = 0;
     }
     std::cout << result << "\n";
 

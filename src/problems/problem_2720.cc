@@ -14,9 +14,9 @@ void cal(int price) {
     int penny = price;
 
     std::cout << quarter << " "
-              << dime << " "
-              << nickel << " "
-              << penny << "\n";
+            << dime << " "
+            << nickel << " "
+            << penny << "\n";
 }
 
 

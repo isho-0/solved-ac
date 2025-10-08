@@ -14,11 +14,11 @@ void solve_problem_10992() {
 
         if (i == 1) {
             std::cout << "*";
-        }else if (i == n) {
+        } else if (i == n) {
             for (int j = 0; j < 2 * n - 1; j++) {
                 std::cout << "*";
             }
-        }else {
+        } else {
             std::cout << "*";
             for (int j = 0; j < 2 * i - 3; j++) {
                 std::cout << " ";

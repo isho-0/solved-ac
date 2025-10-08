@@ -8,9 +8,9 @@ void solve_problem_11021() {
     int test_case;
     std::cin >> test_case;
 
-    for(int i = 1; i <= test_case; i++){
+    for (int i = 1; i <= test_case; i++) {
         std::cin >> a >> b;
-        std::cout << "Case #" << i << ": " << a + b <<"\n";
+        std::cout << "Case #" << i << ": " << a + b << "\n";
     }
 
     std::cout << "================================" << std::endl;

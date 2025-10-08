@@ -9,11 +9,11 @@ void solve_problem_14681() {
 
     if (x > 0 && y > 0) {
         std::cout << "1\n";
-    }else if (x > 0 && y < 0) {
+    } else if (x > 0 && y < 0) {
         std::cout << "4\n";
-    }else if (x < 0 && y > 0) {
+    } else if (x < 0 && y > 0) {
         std::cout << "2\n";
-    }else if (x < 0 && y < 0) {
+    } else if (x < 0 && y < 0) {
         std::cout << "3\n";
     }
 

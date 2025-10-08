@@ -7,9 +7,9 @@ void solve_problem_2753() {
     int year;
     std::cin >> year;
 
-    if ( year % 4 == 0 && year % 100 != 0 || year % 400 == 0 ) {
+    if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
         std::cout << "1\n";
-    }else {
+    } else {
         std::cout << "0\n";
     }
 

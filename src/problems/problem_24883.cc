@@ -9,7 +9,7 @@ void solve_problem_24883() {
 
     if (ch == 'N' || ch == 'n') {
         std::cout << "Naver D2\n";
-    }else {
+    } else {
         std::cout << "Naver Whale\n";
     }
 

@@ -11,7 +11,7 @@ void solve_problem_1924() {
     int month, day;
     std::cin >> month >> day;
 
-    int month_days[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+    int month_days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
     int total_days = 0;
 
@@ -24,13 +24,20 @@ void solve_problem_1924() {
     int day_index = (total_days - 1) % 7;
 
     switch (day_index) {
-        case MON: std::cout << "MON"; break;
-        case TUE: std::cout << "TUE"; break;
-        case WED: std::cout << "WED"; break;
-        case THU: std::cout << "THU"; break;
-        case FRI: std::cout << "FRI"; break;
-        case SAT: std::cout << "SAT"; break;
-        case SUN: std::cout << "SUN"; break;
+        case MON: std::cout << "MON";
+            break;
+        case TUE: std::cout << "TUE";
+            break;
+        case WED: std::cout << "WED";
+            break;
+        case THU: std::cout << "THU";
+            break;
+        case FRI: std::cout << "FRI";
+            break;
+        case SAT: std::cout << "SAT";
+            break;
+        case SUN: std::cout << "SUN";
+            break;
     }
     std::cout << "\n";
 

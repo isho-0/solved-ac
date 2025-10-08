@@ -8,7 +8,6 @@ void solve_problem_10953() {
     std::cin >> t;
 
     while (t--) {
-
         int a, b;
 
         char comma;

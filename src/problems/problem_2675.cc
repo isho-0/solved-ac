@@ -13,7 +13,7 @@ void solve_problem_2675() {
         std::string s;
         std::cin >> repeat >> s;
 
-        for (char c : s) {
+        for (char c: s) {
             for (int j = 0; j < repeat; j++) {
                 std::cout << c;
             }

@@ -6,12 +6,17 @@
 class Stack {
 public:
     Stack();
+
     ~Stack();
 
     void push(int val);
+
     int pop();
+
     int size() const;
+
     int top() const;
+
     bool empty() const;
 
 private:

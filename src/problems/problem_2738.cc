@@ -11,9 +11,9 @@ void solve_problem_2738() {
     int n, m;
     if (!(std::cin >> n >> m)) return;
 
-    std::vector<std::vector<int>> a(n, std::vector<int>(m));
-    std::vector<std::vector<int>> b(n, std::vector<int>(m));
-    std::vector<std::vector<int>> sum(n, std::vector<int>(m));
+    std::vector<std::vector<int> > a(n, std::vector<int>(m));
+    std::vector<std::vector<int> > b(n, std::vector<int>(m));
+    std::vector<std::vector<int> > sum(n, std::vector<int>(m));
 
     for (int i = 0; i < n; ++i)
         for (int j = 0; j < m; ++j) {

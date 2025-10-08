@@ -10,7 +10,7 @@ void solve_problem_2587() {
     std::vector<int> v(5);
     int sum = 0;
 
-    for(int i = 0; i < 5; i++){
+    for (int i = 0; i < 5; i++) {
         std::cin >> v[i];
         sum += v[i];
     }

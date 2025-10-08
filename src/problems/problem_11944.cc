@@ -13,7 +13,7 @@ void solve_problem_11944() {
 
     for (int i = 0; i < n; i++) {
         result += s;
-        if ((int)result.size() >= m) {
+        if ((int) result.size() >= m) {
             result = result.substr(0, m);
             break;
         }

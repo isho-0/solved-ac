@@ -7,7 +7,7 @@
 using cd = std::complex<double>;
 const double PI = acos(-1);
 
-static void fft(std::vector<cd>& a, bool invert) {
+static void fft(std::vector<cd> &a, bool invert) {
     int n = a.size();
     for (int i = 1, j = 0; i < n; i++) {
         int bit = n >> 1;
@@ -29,22 +29,24 @@ static void fft(std::vector<cd>& a, bool invert) {
         }
     }
     if (invert) {
-        for (cd &x : a) x /= n;
+        for (cd &x: a) x /= n;
     }
 }
 
-static std::vector<int> multiply(const std::vector<int>& a, const std::vector<int>& b) {
+static std::vector<int> multiply(const std::vector<int> &a, const std::vector<int> &b) {
     std::vector<cd> fa(a.begin(), a.end()), fb(b.begin(), b.end());
     int n = 1;
-    while (n < (int)a.size() + (int)b.size()) n <<= 1;
-    fa.resize(n); fb.resize(n);
-    fft(fa, false); fft(fb, false);
+    while (n < (int) a.size() + (int) b.size()) n <<= 1;
+    fa.resize(n);
+    fb.resize(n);
+    fft(fa, false);
+    fft(fb, false);
     for (int i = 0; i < n; i++) fa[i] *= fb[i];
     fft(fa, true);
     std::vector<int> res(n);
     long long carry = 0;
     for (int i = 0; i < n; i++) {
-        long long t = (long long)(fa[i].real() + 0.5) + carry;
+        long long t = (long long) (fa[i].real() + 0.5) + carry;
         res[i] = t % 10;
         carry = t / 10;
     }

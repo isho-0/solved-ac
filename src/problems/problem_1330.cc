@@ -9,9 +9,9 @@ void solve_problem_1330() {
 
     if (a > b) {
         std::cout << ">\n";
-    }else if (a < b) {
+    } else if (a < b) {
         std::cout << "<\n";
-    }else {
+    } else {
         std::cout << "==\n";
     }
 

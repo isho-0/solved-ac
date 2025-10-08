@@ -29,24 +29,26 @@ void fft(std::vector<cd> &a, bool invert) {
         }
     }
     if (invert) {
-        for (cd &x : a) x /= n;
+        for (cd &x: a) x /= n;
     }
 }
 
 std::vector<int> multiply(const std::vector<int> &a, const std::vector<int> &b) {
     std::vector<cd> fa(a.begin(), a.end()), fb(b.begin(), b.end());
     int n = 1;
-    while (n < (int)a.size() + (int)b.size()) n <<= 1;
-    fa.resize(n); fb.resize(n);
+    while (n < (int) a.size() + (int) b.size()) n <<= 1;
+    fa.resize(n);
+    fb.resize(n);
 
-    fft(fa, false); fft(fb, false);
+    fft(fa, false);
+    fft(fb, false);
     for (int i = 0; i < n; i++) fa[i] *= fb[i];
     fft(fa, true);
 
     std::vector<int> result(n);
     long long carry = 0;
     for (int i = 0; i < n; i++) {
-        long long t = (long long)(round(fa[i].real())) + carry;
+        long long t = (long long) (round(fa[i].real())) + carry;
         result[i] = t % 10;
         carry = t / 10;
     }
@@ -75,7 +77,6 @@ void solve_problem_13277() {
 
     for (int i = res.size() - 1; i >= 0; i--) std::cout << res[i];
     std::cout << "\n";
-
 
 
     std::cout << "================================" << std::endl;

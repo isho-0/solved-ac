@@ -9,8 +9,8 @@ void solve_problem_10821() {
     std::cin >> word;
 
     int count = 1;
-    for(int i = 0; i < word.size(); i++){
-        if(word[i] == ','){
+    for (int i = 0; i < word.size(); i++) {
+        if (word[i] == ',') {
             count++;
         }
     }

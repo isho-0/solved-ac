@@ -37,7 +37,7 @@ void solve_problem_2309() {
     }
 
     std::sort(answer.begin(), answer.end());
-    for (int i : answer) {
+    for (int i: answer) {
         std::cout << i << "\n";
     }
 

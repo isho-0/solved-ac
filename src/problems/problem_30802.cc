@@ -22,7 +22,7 @@ void solve_problem_30802() {
     int pen_set = people / p;
     int remaining_pen = people % p;
 
-    std::cout << total_box <<"\n";
+    std::cout << total_box << "\n";
     std::cout << pen_set << " " << remaining_pen << "\n";
 
     std::cout << "================================" << std::endl;

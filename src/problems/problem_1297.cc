@@ -9,7 +9,7 @@ void solve_problem_1297() {
     std::cin >> d >> h >> w;
 
     double x = d / sqrt(h * h + w * w);
-    std::cout << (int)(h * x) << " " << (int)(w * x) << "\n";
+    std::cout << (int) (h * x) << " " << (int) (w * x) << "\n";
 
     std::cout << "================================" << std::endl;
 }

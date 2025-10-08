@@ -9,19 +9,19 @@ void solve_problem_11651() {
     int N;
     std::cin >> N;
 
-    std::vector<std::pair<int, int>> points(N);
+    std::vector<std::pair<int, int> > points(N);
 
     for (int i = 0; i < N; i++) {
         std::cin >> points[i].first >> points[i].second;
     }
 
-    std::sort(points.begin(), points.end(), [](const std::pair<int, int>& a, const std::pair<int, int>& b) {
+    std::sort(points.begin(), points.end(), [](const std::pair<int, int> &a, const std::pair<int, int> &b) {
         if (a.second == b.second)
             return a.first < b.first;
         return a.second < b.second;
     });
 
-    for (const auto& p : points) {
+    for (const auto &p: points) {
         std::cout << p.first << " " << p.second << "\n";
     }
 

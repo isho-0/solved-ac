@@ -7,17 +7,17 @@ void defscore(int i) {
     int rank = i + 1;
     if (rank >= 1 && rank <= 5) {
         std::cout << "A+\n";
-    }else if (rank >= 6 && rank <= 15) {
+    } else if (rank >= 6 && rank <= 15) {
         std::cout << "A0\n";
-    }else if (rank >= 16 && rank <= 30) {
+    } else if (rank >= 16 && rank <= 30) {
         std::cout << "B+\n";
-    }else if (rank >= 31 && rank <= 35) {
+    } else if (rank >= 31 && rank <= 35) {
         std::cout << "B0\n";
-    }else if (rank >= 36 && rank <= 45) {
+    } else if (rank >= 36 && rank <= 45) {
         std::cout << "C+\n";
-    }else if (rank >= 46 && rank <= 48) {
+    } else if (rank >= 46 && rank <= 48) {
         std::cout << "C0\n";
-    }else {
+    } else {
         std::cout << "F\n";
     }
 }

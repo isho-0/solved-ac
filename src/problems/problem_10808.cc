@@ -9,7 +9,7 @@ void solve_problem_10808() {
     std::cin >> word;
 
     int alphabet[26] = {0};
-    for (char c : word) {
+    for (char c: word) {
         alphabet[c - 'a']++;
     }
 

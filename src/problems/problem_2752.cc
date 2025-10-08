@@ -9,13 +9,13 @@ void solve_problem_2752() {
     int test_case = 3;
     std::vector<int> arr(test_case);
 
-    for(int i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++) {
         std::cin >> arr[i];
     }
 
     std::sort(arr.begin(), arr.end());
 
-    for(int i = 0; i < 3; i++){
+    for (int i = 0; i < 3; i++) {
         std::cout << arr[i] << " ";
     }
 

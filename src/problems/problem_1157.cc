@@ -14,7 +14,7 @@ void solve_problem_1157() {
     }
 
     int used_alphabet[26] = {0};
-    for (char c : word) {
+    for (char c: word) {
         used_alphabet[c - 'A']++;
     }
 
@@ -25,8 +25,7 @@ void solve_problem_1157() {
         if (used_alphabet[i] > max_count) {
             max_count = used_alphabet[i];
             result = 'A' + i;
-        }
-        else if (used_alphabet[i] == max_count) {
+        } else if (used_alphabet[i] == max_count) {
             result = '?';
         }
     }
