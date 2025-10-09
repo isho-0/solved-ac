@@ -140,6 +140,7 @@
 #include "problems/problem_2798.h"
 #include "problems/problem_2822.h"
 #include "problems/problem_28444.h"
+#include "problems/problem_2869.h"
 #include "problems/problem_28702.h"
 #include "problems/problem_2884.h"
 #include "problems/problem_2902.h"
