@@ -135,6 +135,7 @@
 #include "problems/problem_2752.h"
 #include "problems/problem_2753.h"
 #include "problems/problem_2754.h"
+#include "problems/problem_2775.h"
 #include "problems/problem_27866.h"
 #include "problems/problem_2798.h"
 #include "problems/problem_2822.h"
