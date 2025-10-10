@@ -25,7 +25,7 @@ void solve_problem_1181() {
         return a.size() < b.size();
     });
 
-    for (auto &str : s) std::cout << str << '\n';
+    for (auto &str: s) std::cout << str << '\n';
 
     std::cout << "================================" << std::endl;
 }
