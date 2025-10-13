@@ -84,6 +84,7 @@
 #include "problems/problem_16430.h"
 #include "problems/problem_1676.h"
 #include "problems/problem_17826.h"
+#include "problems/problem_1920.h"
 #include "problems/problem_1924.h"
 #include "problems/problem_1977.h"
 #include "problems/problem_1978.h"
