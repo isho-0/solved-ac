@@ -95,6 +95,7 @@
 #include "problems/problem_2231.h"
 #include "problems/problem_2292.h"
 #include "problems/problem_2309.h"
+#include "problems/problem_23756.h"
 #include "problems/problem_23808.h"
 #include "problems/problem_2420.h"
 #include "problems/problem_24267.h"
