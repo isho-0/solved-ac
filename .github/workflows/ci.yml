@@ -47,11 +47,12 @@ jobs:
       if: matrix.os == 'windows-latest'
       run: |
         choco install cmake
-        if [ "${{ matrix.compiler }}" = "clang" ]; then
+        if ("${{ matrix.compiler }}" -eq "clang") {
           choco install llvm
-        fi
+        }
     
-    - name: Set compiler
+    - name: Set compiler (Unix)
+      if: matrix.os != 'windows-latest'
       run: |
         if [ "${{ matrix.compiler }}" = "gcc" ]; then
           echo "CC=gcc" >> $GITHUB_ENV
@@ -60,6 +61,17 @@ jobs:
           echo "CC=clang" >> $GITHUB_ENV
           echo "CXX=clang++" >> $GITHUB_ENV
         fi
+    
+    - name: Set compiler (Windows)
+      if: matrix.os == 'windows-latest'
+      run: |
+        if ("${{ matrix.compiler }}" -eq "gcc") {
+          echo "CC=gcc" >> $env:GITHUB_ENV
+          echo "CXX=g++" >> $env:GITHUB_ENV
+        } elseif ("${{ matrix.compiler }}" -eq "clang") {
+          echo "CC=clang" >> $env:GITHUB_ENV
+          echo "CXX=clang++" >> $env:GITHUB_ENV
+        }
     
     - name: Configure CMake
       run: |
