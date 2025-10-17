@@ -1,5 +1,6 @@
 #include "problem_4458.h"
 #include <iostream>
+#include <string>
 #include <cctype>
 
 void solve_problem_4458() {
