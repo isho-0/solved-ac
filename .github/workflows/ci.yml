@@ -25,7 +25,7 @@ jobs:
       if: matrix.os == 'ubuntu-latest'
       run: |
         sudo apt-get update
-        sudo apt-get install -y cmake build-essential
+        sudo apt-get install -y cmake build-essential clang
     
     - name: Install dependencies (macOS)
       if: matrix.os == 'macos-latest'
@@ -47,11 +47,28 @@ jobs:
       if: matrix.os == 'windows-latest'
       run: |
         choco install cmake
+        if [ "${{ matrix.compiler }}" = "clang" ]; then
+          choco install llvm
+        fi
+    
+    - name: Set compiler
+      run: |
+        if [ "${{ matrix.compiler }}" = "gcc" ]; then
+          echo "CC=gcc" >> $GITHUB_ENV
+          echo "CXX=g++" >> $GITHUB_ENV
+        elif [ "${{ matrix.compiler }}" = "clang" ]; then
+          echo "CC=clang" >> $GITHUB_ENV
+          echo "CXX=clang++" >> $GITHUB_ENV
+        fi
     
     - name: Configure CMake
-      run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Debug
+      run: |
+        cd src
+        cmake -B build -DCMAKE_BUILD_TYPE=Debug
     
     - name: Build
-      run: cmake --build ${{github.workspace}}/build --config Debug
+      run: |
+        cd src
+        cmake --build build --config Debug
     
 
