@@ -1,5 +1,6 @@
 #include "problem_5054.h"
 #include <iostream>
+#include <algorithm>
 
 void solve_problem_5054() {
     std::cout << "=== 5054번 주차의 신 문제 해결 ===" << std::endl;
