@@ -8,7 +8,7 @@ void solve_problem_7568() {
     int n;
     std::cin >> n;
 
-    std::vector<std::pair<int, int>> people(n);
+    std::vector<std::pair<int, int> > people(n);
 
     for (int i = 0; i < n; i++) {
         std::cin >> people[i].first >> people[i].second;
