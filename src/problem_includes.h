@@ -181,6 +181,7 @@
 #include "problems/problem_3460.h"
 #include "problems/problem_4153.h"
 #include "problems/problem_4458.h"
+#include "problems/problem_4949.h"
 #include "problems/problem_5054.h"
 #include "problems/problem_5176.h"
 #include "problems/problem_5218.h"
