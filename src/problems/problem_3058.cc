@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <climits>
 
 void solve_problem_3058() {
     std::cout << "=== 3058번 짝수를 찾아라 문제 해결 ===" << std::endl;
