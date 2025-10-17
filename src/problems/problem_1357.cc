@@ -1,6 +1,7 @@
 #include "problem_1357.h"
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 static int revert(const std::string &num) {
     std::string rev = num;
