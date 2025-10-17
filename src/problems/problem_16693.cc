@@ -1,7 +1,7 @@
 #include "problem_16693.h"
 #include <iostream>
-#include <cmath>
 #define _USE_MATH_DEFINES
+#include <cmath>
 
 void solve_problem_16693() {
     std::cout << "=== 16693번 Pizza Deal 문제 해결 ===" << std::endl;
