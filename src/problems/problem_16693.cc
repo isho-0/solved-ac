@@ -1,7 +1,10 @@
 #include "problem_16693.h"
 #include <iostream>
-#define _USE_MATH_DEFINES
 #include <cmath>
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 
 void solve_problem_16693() {
     std::cout << "=== 16693번 Pizza Deal 문제 해결 ===" << std::endl;
