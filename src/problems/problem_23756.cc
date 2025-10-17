@@ -1,5 +1,6 @@
 #include "problem_23756.h"
 #include <iostream>
+#include <algorithm>
 
 void solve_problem_23756() {
     std::cout << "=== 23756번 노브 돌리기 문제 해결 ===" << std::endl;
