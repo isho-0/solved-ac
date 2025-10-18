@@ -201,6 +201,7 @@
 #include "problems/problem_7568.h"
 #include "problems/problem_8393.h"
 #include "problems/problem_8958.h"
+#include "problems/problem_9012.h"
 #include "problems/problem_9076.h"
 #include "problems/problem_9085.h"
 #include "problems/problem_9086.h"
