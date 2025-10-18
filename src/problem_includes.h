@@ -90,6 +90,7 @@
 #include "problems/problem_17826.h"
 #include "problems/problem_17869.h"
 #include "problems/problem_18110.h"
+#include "problems/problem_1874.h"
 #include "problems/problem_1920.h"
 #include "problems/problem_1924.h"
 #include "problems/problem_1977.h"
