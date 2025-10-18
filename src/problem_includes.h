@@ -23,6 +23,7 @@
 #include "problems/problem_10808.h"
 #include "problems/problem_10809.h"
 #include "problems/problem_10814.h"
+#include "problems/problem_10816.h"
 #include "problems/problem_10818.h"
 #include "problems/problem_10821.h"
 #include "problems/problem_10828.h"
