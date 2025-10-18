@@ -95,6 +95,7 @@
 #include "problems/problem_1977.h"
 #include "problems/problem_1978.h"
 #include "problems/problem_2010.h"
+#include "problems/problem_2108.h"
 #include "problems/problem_21553.h"
 #include "problems/problem_2164.h"
 #include "problems/problem_2231.h"
