@@ -64,6 +64,7 @@
 #include "problems/problem_1181.h"
 #include "problems/problem_11942.h"
 #include "problems/problem_11944.h"
+#include "problems/problem_1237.h"
 #include "problems/problem_1259.h"
 #include "problems/problem_1284.h"
 #include "problems/problem_1292.h"
