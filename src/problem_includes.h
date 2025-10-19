@@ -94,6 +94,7 @@
 #include "problems/problem_1874.h"
 #include "problems/problem_1920.h"
 #include "problems/problem_1924.h"
+#include "problems/problem_1929.h"
 #include "problems/problem_1977.h"
 #include "problems/problem_1978.h"
 #include "problems/problem_2010.h"
