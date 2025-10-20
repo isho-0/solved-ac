@@ -12,6 +12,7 @@
 #include "problems/problem_10171.h"
 #include "problems/problem_10172.h"
 #include "problems/problem_10178.h"
+#include "problems/problem_1018.h"
 #include "problems/problem_10250.h"
 #include "problems/problem_1037.h"
 #include "problems/problem_10569.h"
