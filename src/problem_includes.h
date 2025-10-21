@@ -199,6 +199,7 @@
 #include "problems/problem_5218.h"
 #include "problems/problem_5338.h"
 #include "problems/problem_5522.h"
+#include "problems/problem_5524.h"
 #include "problems/problem_5543.h"
 #include "problems/problem_5565.h"
 #include "problems/problem_5576.h"
