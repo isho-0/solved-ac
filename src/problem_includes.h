@@ -215,6 +215,7 @@
 #include "problems/problem_5717.h"
 #include "problems/problem_5800.h"
 #include "problems/problem_5928.h"
+#include "problems/problem_6376.h"
 #include "problems/problem_6784.h"
 #include "problems/problem_6825.h"
 #include "problems/problem_7287.h"
