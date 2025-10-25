@@ -18,7 +18,7 @@ void solve_problem_4949() {
         std::stack<char> stack;
         bool balance = true;
 
-        for (char c : line) {
+        for (char c: line) {
             if (c == '(' || c == '[') {
                 stack.push(c);
             } else if (c == ')') {
