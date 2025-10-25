@@ -240,6 +240,7 @@
 #include "problems/problem_9316.h"
 #include "problems/problem_9325.h"
 #include "problems/problem_9375.h"
+#include "problems/problem_9461.h"
 #include "problems/problem_9498.h"
 
 
