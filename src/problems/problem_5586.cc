@@ -13,22 +13,22 @@ void solve_problem_5586() {
     int count_IOI = 0;
     for (int i = 0; i < input.size(); i++) {
         if (input[i] == 'J') {
-            if (input[i+1] == 'O') {
-                if (input[i+2] == 'I') {
+            if (input[i + 1] == 'O') {
+                if (input[i + 2] == 'I') {
                     count_JOI++;
                 }
             }
         }
         if (input[i] == 'I') {
-            if (input[i+1] == 'O') {
-                if (input[i+2] == 'I') {
+            if (input[i + 1] == 'O') {
+                if (input[i + 2] == 'I') {
                     count_IOI++;
                 }
             }
         }
     }
     std::cout << count_JOI <<
-        "\n" << count_IOI << "\n";
+            "\n" << count_IOI << "\n";
 
     std::cout << "================================" << std::endl;
 }
