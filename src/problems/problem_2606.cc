@@ -5,7 +5,7 @@
 static void dfs(int node, std::vector<std::vector<int> > &graph, std::vector<bool> &visited, int &count) {
     visited[node] = true;
 
-    for (int next : graph[node]) {
+    for (int next: graph[node]) {
         if (!visited[next]) {
             count++;
             dfs(next, graph, visited, count);
@@ -22,7 +22,7 @@ void solve_problem_2606() {
     int n, m;
     std::cin >> n >> m;
 
-    std::vector<std::vector<int>> graph(n + 1);
+    std::vector<std::vector<int> > graph(n + 1);
     std::vector<bool> visited(n + 1, false);
 
     for (int i = 0; i < m; i++) {
