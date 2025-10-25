@@ -34,7 +34,7 @@ void solve_problem_1764() {
     std::sort(result.begin(), result.end());
 
     std::cout << result.size() << "\n";
-    for (const auto& name : result) {
+    for (const auto &name: result) {
         std::cout << name << "\n";
     }
 
