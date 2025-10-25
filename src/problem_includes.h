@@ -147,6 +147,7 @@
 #include "problems/problem_2562.h"
 #include "problems/problem_2576.h"
 #include "problems/problem_2577.h"
+#include "problems/problem_2579.h"
 #include "problems/problem_2581.h"
 #include "problems/problem_2587.h"
 #include "problems/problem_2592.h"
