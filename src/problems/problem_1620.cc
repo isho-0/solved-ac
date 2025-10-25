@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <string>
 
 void solve_problem_1620() {
     std::cout << "=== 1620번 나는야 포켓몬 마스터 이다솜 문제 해결 ===" << std::endl;
