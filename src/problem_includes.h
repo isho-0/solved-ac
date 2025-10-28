@@ -120,6 +120,7 @@
 #include "problems/problem_21756.h"
 #include "problems/problem_2231.h"
 #include "problems/problem_2292.h"
+#include "problems/problem_22950.h"
 #include "problems/problem_2309.h"
 #include "problems/problem_23756.h"
 #include "problems/problem_23808.h"
