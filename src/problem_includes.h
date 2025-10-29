@@ -119,6 +119,7 @@
 #include "problems/problem_21553.h"
 #include "problems/problem_2164.h"
 #include "problems/problem_21756.h"
+#include "problems/problem_22193.h"
 #include "problems/problem_2231.h"
 #include "problems/problem_2292.h"
 #include "problems/problem_22950.h"
