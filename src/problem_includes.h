@@ -245,6 +245,7 @@
 #include "problems/problem_9085.h"
 #include "problems/problem_9086.h"
 #include "problems/problem_9095.h"
+#include "problems/problem_9286.h"
 #include "problems/problem_9295.h"
 #include "problems/problem_9316.h"
 #include "problems/problem_9325.h"
