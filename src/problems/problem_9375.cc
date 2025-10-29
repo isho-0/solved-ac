@@ -25,7 +25,7 @@ void solve_problem_9375() {
         }
 
         int result = 1;
-        for (auto &c : clothes) {
+        for (auto &c: clothes) {
             result *= (c.second + 1);
         }
 
