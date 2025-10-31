@@ -9,6 +9,7 @@
 #include "problems/problem_1003.h"
 #include "problems/problem_1008.h"
 #include "problems/problem_1009.h"
+#include "problems/problem_1012.h"
 #include "problems/problem_10170.h"
 #include "problems/problem_10171.h"
 #include "problems/problem_10172.h"
