@@ -131,6 +131,7 @@
 #include "problems/problem_2292.h"
 #include "problems/problem_22950.h"
 #include "problems/problem_2309.h"
+#include "problems/problem_23278.h"
 #include "problems/problem_23756.h"
 #include "problems/problem_23808.h"
 #include "problems/problem_2420.h"
