@@ -241,6 +241,7 @@
 #include "problems/problem_5598.h"
 #include "problems/problem_5635.h"
 #include "problems/problem_5717.h"
+#include "problems/problem_5789.h"
 #include "problems/problem_5800.h"
 #include "problems/problem_5928.h"
 #include "problems/problem_6376.h"
