@@ -211,6 +211,7 @@
 #include "problems/problem_30224.h"
 #include "problems/problem_3040.h"
 #include "problems/problem_3046.h"
+#include "problems/problem_3047.h"
 #include "problems/problem_3052.h"
 #include "problems/problem_3058.h"
 #include "problems/problem_30802.h"
