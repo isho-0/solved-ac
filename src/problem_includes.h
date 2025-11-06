@@ -173,6 +173,7 @@
 #include "problems/problem_2693.h"
 #include "problems/problem_2702.h"
 #include "problems/problem_2711.h"
+#include "problems/problem_2712.h"
 #include "problems/problem_2720.h"
 #include "problems/problem_27323.h"
 #include "problems/problem_2738.h"
