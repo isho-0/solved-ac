@@ -227,6 +227,7 @@
 #include "problems/problem_33046.h"
 #include "problems/problem_33178.h"
 #include "problems/problem_3460.h"
+#include "problems/problem_3985.h"
 #include "problems/problem_4153.h"
 #include "problems/problem_4458.h"
 #include "problems/problem_4949.h"
