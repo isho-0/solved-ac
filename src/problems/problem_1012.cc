@@ -5,7 +5,7 @@
 static int dx[4] = {1, -1, 0, 0};
 static int dy[4] = {0, 0, 1, -1};
 
-static void dfs(std::vector<std::vector<int>>& field, int x, int y, int m, int n) {
+static void dfs(std::vector<std::vector<int> > &field, int x, int y, int m, int n) {
     field[y][x] = 0;
     for (int i = 0; i < 4; i++) {
         int nx = x + dx[i];
@@ -27,7 +27,7 @@ void solve_problem_1012() {
     while (test_case--) {
         int m, n, k;
         std::cin >> m >> n >> k;
-        std::vector<std::vector<int>> field(n, std::vector<int> (m, 0));
+        std::vector<std::vector<int> > field(n, std::vector<int>(m, 0));
 
         for (int i = 0; i < k; i++) {
             int x, y;
