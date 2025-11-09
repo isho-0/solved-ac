@@ -22,12 +22,12 @@ void solve_problem_29713() {
     };
 
     std::map<char, int> have;
-    for (char c : s) {
+    for (char c: s) {
         have[c]++;
     }
 
     int result = 1e9;
-    for (auto [ch, cnt] : need) {
+    for (auto [ch, cnt]: need) {
         result = std::min(result, have[ch] / cnt);
     }
 
