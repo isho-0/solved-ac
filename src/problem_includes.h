@@ -89,6 +89,7 @@
 #include "problems/problem_1427.h"
 #include "problems/problem_1436.h"
 #include "problems/problem_1440.h"
+#include "problems/problem_14579.h"
 #include "problems/problem_14593.h"
 #include "problems/problem_14626.h"
 #include "problems/problem_1463.h"
