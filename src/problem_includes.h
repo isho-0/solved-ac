@@ -163,6 +163,7 @@
 #include "problems/problem_25311.h"
 #include "problems/problem_2557.h"
 #include "problems/problem_2562.h"
+#include "problems/problem_25628.h"
 #include "problems/problem_2576.h"
 #include "problems/problem_2577.h"
 #include "problems/problem_2579.h"
