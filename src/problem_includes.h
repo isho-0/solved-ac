@@ -260,6 +260,7 @@
 #include "problems/problem_6784.h"
 #include "problems/problem_6825.h"
 #include "problems/problem_7287.h"
+#include "problems/problem_7510.h"
 #include "problems/problem_7568.h"
 #include "problems/problem_8393.h"
 #include "problems/problem_8958.h"
