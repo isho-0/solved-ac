@@ -34,7 +34,7 @@ static void fft(std::vector<cd> &a, bool invert) {
     }
 
     if (invert) {
-        for (cd &x : a)
+        for (cd &x: a)
             x /= n;
     }
 }
@@ -42,7 +42,7 @@ static void fft(std::vector<cd> &a, bool invert) {
 static std::vector<int> multiply(const std::vector<int> &a, const std::vector<int> &b) {
     std::vector<cd> fa(a.begin(), a.end()), fb(b.begin(), b.end());
     int n = 1;
-    while (n < (int)a.size() + (int)b.size())
+    while (n < (int) a.size() + (int) b.size())
         n <<= 1;
     fa.resize(n);
     fb.resize(n);
@@ -56,7 +56,7 @@ static std::vector<int> multiply(const std::vector<int> &a, const std::vector<in
     std::vector<int> result(n);
     long long carry = 0;
     for (int i = 0; i < n; i++) {
-        long long t = (long long)(round(fa[i].real())) + carry;
+        long long t = (long long) (round(fa[i].real())) + carry;
         carry = t / 10;
         result[i] = t % 10;
     }

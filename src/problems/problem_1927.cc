@@ -12,7 +12,7 @@ void solve_problem_1927() {
     int n;
     std::cin >> n;
 
-    std::priority_queue<int, std::vector<int>, std::greater<int>> pq;
+    std::priority_queue<int, std::vector<int>, std::greater<int> > pq;
 
     for (int i = 0; i < n; i++) {
         int x;

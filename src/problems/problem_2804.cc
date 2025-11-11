@@ -27,14 +27,11 @@ void solve_problem_2804() {
         for (int j = 0; j < n; j++) {
             if (i == sameB && j == sameA) {
                 std::cout << a[j];
-            }
-            else if (i == sameB) {
+            } else if (i == sameB) {
                 std::cout << a[j];
-            }
-            else if (j == sameA) {
+            } else if (j == sameA) {
                 std::cout << b[i];
-            }
-            else {
+            } else {
                 std::cout << ".";
             }
         }
