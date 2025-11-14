@@ -229,6 +229,7 @@
 #include "problems/problem_31048.h"
 #include "problems/problem_31403.h"
 #include "problems/problem_31962.h"
+#include "problems/problem_32215.h"
 #include "problems/problem_32384.h"
 #include "problems/problem_33046.h"
 #include "problems/problem_33178.h"
