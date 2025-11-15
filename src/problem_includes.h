@@ -130,6 +130,7 @@
 #include "problems/problem_2010.h"
 #include "problems/problem_20254.h"
 #include "problems/problem_2108.h"
+#include "problems/problem_2153.h"
 #include "problems/problem_21553.h"
 #include "problems/problem_2164.h"
 #include "problems/problem_21756.h"
