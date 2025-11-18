@@ -14,7 +14,7 @@ void solve_problem_15784() {
     a--;
     b--;
 
-    std::vector<std::vector<int>> chair(n, std::vector<int>(n));
+    std::vector<std::vector<int> > chair(n, std::vector<int>(n));
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             std::cin >> chair[i][j];
