@@ -13,13 +13,13 @@ void solve_problem_5014() {
     std::cin >> f >> s >> g >> u >> d;
 
     std::vector<bool> visited(f + 1, false);
-    std::queue<std::pair<int, int>> q;
+    std::queue<std::pair<int, int> > q;
 
     q.emplace(s, 0);
     visited[s] = true;
 
     while (!q.empty()) {
-        auto[floor, cnt] = q.front();
+        auto [floor, cnt] = q.front();
         q.pop();
 
         if (floor == g) {
