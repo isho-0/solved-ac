@@ -2,13 +2,13 @@
 #include <iostream>
 #include <string>
 
-static std::string divide(const std::string& a, const std::string& b, std::string& remainder) {
+static std::string divide(const std::string &a, const std::string &b, std::string &remainder) {
     int lenA = a.size(), lenB = b.size();
     std::string quotient;
     std::string cur;
     long long carry = 0;
 
-    auto cmp = [](const std::string& x, const std::string& y) {
+    auto cmp = [](const std::string &x, const std::string &y) {
         if (x.size() != y.size()) {
             return x.size() < y.size() ? -1 : 1;
         }
@@ -19,11 +19,11 @@ static std::string divide(const std::string& a, const std::string& b, std::strin
         return x < y ? -1 : 1;
     };
 
-    auto sub = [](std::string x, const std::string& y) {
+    auto sub = [](std::string x, const std::string &y) {
         int borrow = 0;
-        for (int i = 0; i < (int)y.size() || borrow; ++i) {
+        for (int i = 0; i < (int) y.size() || borrow; ++i) {
             int xi = x[x.size() - 1 - i] - '0';
-            int yi = i < (int)y.size() ? y[y.size() - 1 - i] - '0' : 0;
+            int yi = i < (int) y.size() ? y[y.size() - 1 - i] - '0' : 0;
             int val = xi - yi - borrow;
             borrow = val < 0;
             if (borrow) val += 10;
@@ -37,7 +37,7 @@ static std::string divide(const std::string& a, const std::string& b, std::strin
     };
 
     std::string curNum;
-    for (char ch : a) {
+    for (char ch: a) {
         if (curNum == "0") {
             curNum.clear();
         }
@@ -51,7 +51,7 @@ static std::string divide(const std::string& a, const std::string& b, std::strin
     }
 
     int pos = 0;
-    while (pos + 1 < (int)quotient.size() && quotient[pos] == '0') {
+    while (pos + 1 < (int) quotient.size() && quotient[pos] == '0') {
         pos++;
     }
     remainder = curNum.empty() ? "0" : curNum;
