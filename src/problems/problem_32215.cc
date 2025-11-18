@@ -10,7 +10,7 @@ void solve_problem_32215() {
     long long n, m, k;
     std::cin >> n >> m >> k;
 
-    long long dohun =  m * k;
+    long long dohun = m * k;
     long long chahyungjun = dohun + m;
 
     std::cout << chahyungjun << "\n";
