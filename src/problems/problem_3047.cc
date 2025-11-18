@@ -20,7 +20,7 @@ void solve_problem_3047() {
     std::string order;
     std::cin >> order;
 
-    for (char c : order) {
+    for (char c: order) {
         if (c == 'A') std::cout << num[0] << " ";
         else if (c == 'B') std::cout << num[1] << " ";
         else if (c == 'C') std::cout << num[2] << " ";
