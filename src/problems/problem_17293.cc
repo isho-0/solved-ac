@@ -23,11 +23,11 @@ void solve_problem_17293() {
 
     for (int i = n; i >= 1; i--) {
         std::cout << bottle(i) << " of beer on the wall, " <<
-            bottle(i) << " of beer.\n";
+                bottle(i) << " of beer.\n";
 
         int next = i - 1;
         std::cout << "Take one down and pass it around, " <<
-            bottle(next) << " of beer on the wall.\n";
+                bottle(next) << " of beer on the wall.\n";
 
         std::cout << '\n';
     }
@@ -35,7 +35,7 @@ void solve_problem_17293() {
     std::cout << "No more bottles of beer on the wall, no more bottles of beer.\n";
 
     std::cout << "Go to the store and buy some more, " <<
-        bottle(n) << " of beer on the wall.\n";
+            bottle(n) << " of beer on the wall.\n";
 
     std::cout << "================================" << std::endl;
 }
