@@ -27,7 +27,7 @@ void solve_problem_2153() {
     std::cin >> word;
 
     int sum = 0;
-    for (char c : word) {
+    for (char c: word) {
         if (c >= 'a' && c <= 'z') {
             sum += (c - 'a' + 1);
         } else if (c >= 'A' && c <= 'Z') {
