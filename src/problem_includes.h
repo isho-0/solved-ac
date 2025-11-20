@@ -131,6 +131,7 @@
 #include "problems/problem_1966.h"
 #include "problems/problem_1977.h"
 #include "problems/problem_1978.h"
+#include "problems/problem_20001.h"
 #include "problems/problem_2010.h"
 #include "problems/problem_20254.h"
 #include "problems/problem_2108.h"
