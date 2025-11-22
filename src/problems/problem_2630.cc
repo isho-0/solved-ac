@@ -48,7 +48,7 @@ void solve_problem_2630() {
 
     paper_cnt(0, 0, n);
 
-    std::cout << white_cnt << "\n" << blue_cnt << "\n"
+    std::cout << white_cnt << "\n" << blue_cnt << "\n";
 
     std::cout << "================================" << std::endl;
 }
