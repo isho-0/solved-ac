@@ -186,6 +186,7 @@
 #include "problems/problem_2592.h"
 #include "problems/problem_2606.h"
 #include "problems/problem_2609.h"
+#include "problems/problem_2630.h"
 #include "problems/problem_26340.h"
 #include "problems/problem_2675.h"
 #include "problems/problem_2693.h"
