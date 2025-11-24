@@ -174,6 +174,7 @@
 #include "problems/problem_2523.h"
 #include "problems/problem_25311.h"
 #include "problems/problem_2557.h"
+#include "problems/problem_2558.h"
 #include "problems/problem_2562.h"
 #include "problems/problem_25625.h"
 #include "problems/problem_25628.h"
