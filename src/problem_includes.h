@@ -33,6 +33,7 @@
 #include "problems/problem_10828.h"
 #include "problems/problem_10833.h"
 #include "problems/problem_10845.h"
+#include "problems/problem_10865.h"
 #include "problems/problem_10866.h"
 #include "problems/problem_10869.h"
 #include "problems/problem_10870.h"
