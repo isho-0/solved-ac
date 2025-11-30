@@ -265,6 +265,7 @@
 #include "problems/problem_4949.h"
 #include "problems/problem_4999.h"
 #include "problems/problem_5014.h"
+#include "problems/problem_5046.h"
 #include "problems/problem_5054.h"
 #include "problems/problem_5176.h"
 #include "problems/problem_5218.h"
