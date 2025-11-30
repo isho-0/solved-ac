@@ -256,6 +256,7 @@
 #include "problems/problem_3460.h"
 #include "problems/problem_3985.h"
 #include "problems/problem_4153.h"
+#include "problems/problem_4388.h"
 #include "problems/problem_4458.h"
 #include "problems/problem_4493.h"
 #include "problems/problem_4892.h"
