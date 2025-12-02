@@ -23,7 +23,7 @@ void solve_problem_19945() {
         std::cout << bits;
     }
     else {
-        std::cout << 32;   // 음수는 항상 32비트
+        std::cout << 32;
     }
 
     std::cout << "================================" << std::endl;
