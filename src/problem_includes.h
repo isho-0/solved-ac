@@ -134,6 +134,7 @@
 #include "problems/problem_1927.h"
 #include "problems/problem_1929.h"
 #include "problems/problem_1966.h"
+#include "problems/problem_19698.h"
 #include "problems/problem_1977.h"
 #include "problems/problem_1978.h"
 #include "problems/problem_19843.h"
