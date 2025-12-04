@@ -9,7 +9,7 @@ void solve_problem_19698() {
 
     int n, w, h, l;
     if (!(std::cin >> n >> w >> h >> l)) {
-        return 0;
+        return;
     };
 
     int fitW = w / l;
