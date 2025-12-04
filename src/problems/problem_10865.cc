@@ -1,5 +1,6 @@
 #include "problem_10865.h"
 #include <vector>
+#include <iostream>
 
 void solve_problem_10865() {
     std::cout << "=== 10865번 친구 친구 문제 해결 ===" << std::endl;
